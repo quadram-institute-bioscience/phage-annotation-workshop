@@ -1,0 +1,1893 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:303 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 303 present
+DISC_FEATURE_COUNT:tRNA: 10 present
+DISC_FEATURE_COUNT:rRNA: 4 present
+DISC_COUNT_NUCLEOTIDES:31 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:317 features have inconsistent gene locations.
+NO_ANNOTATION:6 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+FATAL: DISC_SUSPECT_RRNA_PRODUCTS:2 rRNA product names contain suspect phrase
+FATAL: DISC_SHORT_RRNA:2 rRNA features are too short
+ONCALLER_COMMENT_PRESENT:31 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:7 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:31 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:31 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:31 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:31 sequences do not include structured comments.
+MISSING_PROJECT:334 sequences do not include project.
+FATAL: RRNA_NAME_CONFLICTS:2 rRNA product names are not standard. Correct the names to the standard format, eg "16S ribosomal RNA"
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::303 proteins have invalid IDs.
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_1 (length 660)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_2 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_3 (length 198)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_4 (length 164)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_5 (length 575)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_6 (length 196)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_7 (length 150)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_8 (length 274)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_9 (length 176)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_10 (length 241)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_11 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_12 (length 152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_13 (length 95)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_14 (length 61)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_15 (length 136)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_16 (length 95)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_17 (length 221)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_18 (length 87)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_19 (length 111)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_20 (length 197)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_21 (length 202)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_22 (length 130)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_23 (length 120)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_24 (length 102)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_25 (length 146)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_26 (length 164)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_27 (length 193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_28 (length 100)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_29 (length 138)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_30 (length 216)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_31 (length 109)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_32 (length 120)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_33 (length 73)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_34 (length 88)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_35 (length 92)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_36 (length 153)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_37 (length 181)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_38 (length 115)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_39 (length 155)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_40 (length 70)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_41 (length 61)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_42 (length 62)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_43 (length 193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_44 (length 70)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_45 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_46 (length 128)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_47 (length 62)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_48 (length 60)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_49 (length 64)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_50 (length 57)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_51 (length 34)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_52 (length 181)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_53 (length 259)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_54 (length 336)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_55 (length 322)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_56 (length 100)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_57 (length 175)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_58 (length 133)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_59 (length 296)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_60 (length 340)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_61 (length 343)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_62 (length 308)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_63 (length 104)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_64 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_65 (length 87)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_66 (length 102)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_67 (length 106)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_68 (length 161)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_69 (length 157)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_70 (length 181)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_71 (length 258)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_72 (length 397)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_73 (length 210)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_74 (length 156)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_75 (length 70)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_76 (length 102)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_77 (length 60)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_78 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_79 (length 43)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_80 (length 66)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_81 (length 108)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_82 (length 71)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_83 (length 185)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_84 (length 72)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_85 (length 105)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_86 (length 67)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_87 (length 63)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_88 (length 264)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_89 (length 400)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_90 (length 339)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_91 (length 87)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_92 (length 68)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_93 (length 560)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_94 (length 62)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_95 (length 129)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_96 (length 228)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_97 (length 319)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_98 (length 187)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_99 (length 122)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_100 (length 898)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_101 (length 126)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_102 (length 83)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_103 (length 246)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_104 (length 351)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_105 (length 221)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_106 (length 391)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_107 (length 114)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_108 (length 475)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_109 (length 60)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_110 (length 85)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_111 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_112 (length 208)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_113 (length 54)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_114 (length 342)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_115 (length 66)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_116 (length 259)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_117 (length 171)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_118 (length 224)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_119 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_120 (length 68)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_121 (length 113)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_122 (length 161)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_123 (length 67)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_124 (length 54)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_125 (length 156)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_126 (length 60)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_127 (length 207)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_128 (length 200)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_129 (length 248)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_130 (length 103)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_131 (length 439)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_132 (length 81)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_133 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_134 (length 227)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_135 (length 166)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_136 (length 143)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_137 (length 162)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_138 (length 71)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_139 (length 141)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_140 (length 58)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_141 (length 86)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_142 (length 516)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_143 (length 272)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_144 (length 46)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_145 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_146 (length 67)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_147 (length 725)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_148 (length 312)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_149 (length 64)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_150 (length 185)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_151 (length 32)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_152 (length 65)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_153 (length 36)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_154 (length 71)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_155 (length 151)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_156 (length 51)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_157 (length 442)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_158 (length 49)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_159 (length 211)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_160 (length 109)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_161 (length 152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_162 (length 98)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_163 (length 39)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_164 (length 92)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_165 (length 50)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_166 (length 90)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_167 (length 218)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_168 (length 183)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_169 (length 1026)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_170 (length 221)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_171 (length 372)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_172 (length 1289)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_173 (length 305)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_174 (length 89)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_175 (length 112)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_176 (length 217)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_177 (length 210)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_178 (length 301)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_179 (length 75)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_180 (length 128)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_181 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_182 (length 193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_183 (length 183)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_184 (length 245)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_185 (length 104)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_186 (length 87)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_187 (length 108)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_188 (length 754)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_189 (length 232)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_190 (length 221)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_191 (length 159)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_192 (length 136)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_193 (length 374)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_194 (length 168)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_195 (length 117)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_196 (length 99)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_197 (length 75)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_198 (length 301)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_199 (length 65)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_200 (length 66)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_201 (length 91)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_202 (length 79)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_203 (length 112)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_204 (length 193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_205 (length 78)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_206 (length 102)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_207 (length 111)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_208 (length 82)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_209 (length 58)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_210 (length 110)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_211 (length 121)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_212 (length 95)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_213 (length 65)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_214 (length 68)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_215 (length 152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_216 (length 278)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_217 (length 89)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_218 (length 487)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_219 (length 62)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_220 (length 682)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_221 (length 61)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_222 (length 67)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_223 (length 96)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_224 (length 321)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_225 (length 364)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_226 (length 590)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_227 (length 177)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_228 (length 391)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_229 (length 249)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_230 (length 208)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_231 (length 132)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_232 (length 137)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_233 (length 74)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_234 (length 55)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_235 (length 76)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_236 (length 502)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_237 (length 205)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_238 (length 226)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_239 (length 376)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_240 (length 67)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_241 (length 92)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_242 (length 334)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_243 (length 427)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_244 (length 220)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_245 (length 521)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_246 (length 269)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_247 (length 212)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_248 (length 141)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_249 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_250 (length 524)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_251 (length 163)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_252 (length 659)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_253 (length 610)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_254 (length 164)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_255 (length 272)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_256 (length 256)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_257 (length 309)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_258 (length 487)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_259 (length 527)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_260 (length 219)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_261 (length 602)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_262 (length 288)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_263 (length 334)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_264 (length 678)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3_1 (length 126)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3_2 (length 219)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3_3 (length 142)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3_4 (length 135)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4_1 (length 89)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4_2 (length 139)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4_3 (length 172)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4_4 (length 145)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4_5 (length 113)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5_1 (length 405)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5_2 (length 201)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:6_1 (length 224)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7_1 (length 201)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7_2 (length 372)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:8_1 (length 168)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9_1 (length 68)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9_2 (length 96)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9_3 (length 277)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12_1 (length 141)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12_2 (length 185)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:14_1 (length 274)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15_1 (length 109)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15_2 (length 174)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16_1 (length 204)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16_2 (length 115)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:17_1 (length 292)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:19_1 (length 159)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:21_1 (length 361)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:22_1 (length 213)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23_1 (length 81)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23_2 (length 56)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23_3 (length 111)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:24_1 (length 91)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25_1 (length 105)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25_2 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:27_1 (length 156)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:28_1 (length 175)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:30_1 (length 109)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:31_1 (length 114)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::31 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::31 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 303 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 10 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 4 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::31 nucleotide Bioseqs are present
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1 (length 168920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:2 (length 4412)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3 (length 2671)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4 (length 2426)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5 (length 2152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:6 (length 1920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7 (length 1868)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:8 (length 1510)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9 (length 1490)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:10 (length 1424)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:11 (length 1399)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12 (length 1326)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:13 (length 1305)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:14 (length 1276)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15 (length 1263)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16 (length 1215)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:17 (length 1193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:18 (length 1171)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:19 (length 1162)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:20 (length 1157)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:21 (length 1151)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:22 (length 1118)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23 (length 1103)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:24 (length 1077)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25 (length 1071)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:26 (length 1067)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:27 (length 1058)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:28 (length 1027)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:29 (length 1006)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:30 (length 1002)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:31 (length 1000)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::317 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c2760-778	JGOKHKEI_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c3062-2769	JGOKHKEI_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c3646-3050	JGOKHKEI_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c4121-3627	JGOKHKEI_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c5883-4156	JGOKHKEI_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c6457-5867	JGOKHKEI_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:6505-6957	JGOKHKEI_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:6957-7781	JGOKHKEI_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:7888-8418	JGOKHKEI_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:8468-9193	JGOKHKEI_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:9193-9435	JGOKHKEI_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:9432-9890	JGOKHKEI_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:9964-10251	JGOKHKEI_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:10328-10513	JGOKHKEI_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:10514-10924	JGOKHKEI_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:10927-11214	JGOKHKEI_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:11924-12589	JGOKHKEI_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:13218-13481	JGOKHKEI_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:13538-13873	JGOKHKEI_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:13936-14529	JGOKHKEI_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:14572-15180	JGOKHKEI_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:15149-15541	JGOKHKEI_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:15523-15885	JGOKHKEI_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:15882-16190	JGOKHKEI_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:16366-16806	JGOKHKEI_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:16844-17338	JGOKHKEI_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:17426-18007	JGOKHKEI_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:18123-18425	JGOKHKEI_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:18486-18902	JGOKHKEI_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:18929-19579	JGOKHKEI_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:19576-19905	JGOKHKEI_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Autonomous glycyl radical cofactor	1:19913-20275	JGOKHKEI_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:20275-20496	JGOKHKEI_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:20489-20755	JGOKHKEI_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:20755-21033	JGOKHKEI_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:21093-21554	JGOKHKEI_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:21562-22107	JGOKHKEI_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:22100-22447	JGOKHKEI_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:22444-22911	JGOKHKEI_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:22908-23120	JGOKHKEI_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:23117-23302	JGOKHKEI_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:23299-23487	JGOKHKEI_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Thymidine kinase	1:23489-24070	JGOKHKEI_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:24113-24325	JGOKHKEI_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:24338-24631	JGOKHKEI_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:24628-25014	JGOKHKEI_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:25111-25299	JGOKHKEI_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:25299-25481	JGOKHKEI_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:25484-25678	JGOKHKEI_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:25668-25841	JGOKHKEI_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:25902-26006	JGOKHKEI_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:26006-26551	JGOKHKEI_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:26626-27405	JGOKHKEI_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:27389-28399	JGOKHKEI_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:28514-29482	JGOKHKEI_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:29585-29887	JGOKHKEI_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:29948-30475	JGOKHKEI_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:30531-30932	JGOKHKEI_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:30940-31830	JGOKHKEI_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:31839-32861	JGOKHKEI_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:32889-33920	JGOKHKEI_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:33975-34901	JGOKHKEI_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:34898-35212	JGOKHKEI_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:35199-35441	JGOKHKEI_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:35443-35706	JGOKHKEI_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:35703-36011	JGOKHKEI_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:36008-36328	JGOKHKEI_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:36452-36937	JGOKHKEI_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:36979-37452	JGOKHKEI_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Anaerobic ribonucleoside-triphosphate reductase	1:37449-37994	JGOKHKEI_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:38222-38998	JGOKHKEI_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Anaerobic ribonucleoside-triphosphate reductase	1:39106-40299	JGOKHKEI_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:40296-40928	JGOKHKEI_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Anaerobic ribonucleoside-triphosphate reductase-activating protein	1:40918-41388	JGOKHKEI_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:41507-41719	JGOKHKEI_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:41722-42030	JGOKHKEI_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:42189-42371	JGOKHKEI_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:42364-42657	JGOKHKEI_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:42665-42796	JGOKHKEI_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:42797-42997	JGOKHKEI_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:43050-43376	JGOKHKEI_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:43379-43594	JGOKHKEI_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:43677-44234	JGOKHKEI_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:44218-44436	JGOKHKEI_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:44438-44755	JGOKHKEI_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:44724-44927	JGOKHKEI_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:44912-45103	JGOKHKEI_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:45155-45949	JGOKHKEI_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:46008-47210	JGOKHKEI_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:47387-48406	JGOKHKEI_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:48403-48666	JGOKHKEI_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:48647-48853	JGOKHKEI_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	DNA replication and repair protein RecF	1:48850-50532	JGOKHKEI_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:50588-50776	JGOKHKEI_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:50786-51175	JGOKHKEI_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:51231-51917	JGOKHKEI_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:51969-52928	JGOKHKEI_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:52930-53493	JGOKHKEI_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:53495-53863	JGOKHKEI_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	DNA polymerase II	1:53942-56638	JGOKHKEI_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:56823-57203	JGOKHKEI_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:57211-57462	JGOKHKEI_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Thymidylate synthase 1	1:57616-58356	JGOKHKEI_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:58380-59435	JGOKHKEI_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:59600-60265	JGOKHKEI_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Protein RecA	1:60274-61449	JGOKHKEI_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:61442-61786	JGOKHKEI_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:61796-63223	JGOKHKEI_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:63282-63464	JGOKHKEI_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:63466-63723	JGOKHKEI_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:63784-64077	JGOKHKEI_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:64077-64703	JGOKHKEI_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:64705-64869	JGOKHKEI_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:64872-65900	JGOKHKEI_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c66097-65897	JGOKHKEI_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Modification methylase FokI	1:66210-66989	JGOKHKEI_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:67050-67565	JGOKHKEI_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:67555-68229	JGOKHKEI_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:68262-68504	JGOKHKEI_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:68603-68809	JGOKHKEI_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:68809-69150	JGOKHKEI_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:69159-69644	JGOKHKEI_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:69619-69822	JGOKHKEI_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:69819-69983	JGOKHKEI_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:69976-70446	JGOKHKEI_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:70455-70637	JGOKHKEI_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:70705-71328	JGOKHKEI_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:71325-71927	JGOKHKEI_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:72050-72796	JGOKHKEI_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:72798-73109	JGOKHKEI_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	ATP-dependent RecD-like DNA helicase	1:73106-74425	JGOKHKEI_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:74447-74692	JGOKHKEI_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:74685-74927	JGOKHKEI_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:74927-75610	JGOKHKEI_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:75674-76174	JGOKHKEI_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:76185-76616	JGOKHKEI_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:76693-77181	JGOKHKEI_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:77352-77567	JGOKHKEI_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:77567-77992	JGOKHKEI_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:77995-78171	JGOKHKEI_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:78174-78434	JGOKHKEI_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	DNA topoisomerase 4 subunit B	1:78504-80054	JGOKHKEI_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:80032-80850	JGOKHKEI_00151
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:80831-80971	JGOKHKEI_00152
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	DNA gyrase subunit B	1:81070-81363	JGOKHKEI_00153
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:81418-81621	JGOKHKEI_00154
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:81632-83809	JGOKHKEI_00155
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:83821-84759	JGOKHKEI_00156
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:84788-84982	JGOKHKEI_00157
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:85066-85623	JGOKHKEI_00158
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:85813-85911	JGOKHKEI_00159
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:86098-86295	JGOKHKEI_00160
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:86292-86402	JGOKHKEI_00161
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:86411-86626	JGOKHKEI_00162
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:86687-87142	JGOKHKEI_00163
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:87230-87385	JGOKHKEI_00164
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	DNA gyrase subunit A	1:87523-88851	JGOKHKEI_00165
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:88848-88997	JGOKHKEI_00166
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:89125-89760	JGOKHKEI_00167
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:89771-90100	JGOKHKEI_00168
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:90097-90555	JGOKHKEI_00169
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:90555-90851	JGOKHKEI_00170
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:91028-91147	JGOKHKEI_00171
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:91137-91415	JGOKHKEI_00172
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:91412-91564	JGOKHKEI_00173
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:91577-91849	JGOKHKEI_00174
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c92506-91850	JGOKHKEI_00175
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Prophage tail fiber assembly protein TfaE	1:c93078-92527	JGOKHKEI_00176
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c96186-93106	JGOKHKEI_00177
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c96860-96195	JGOKHKEI_00178
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c98041-96923	JGOKHKEI_00179
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c101919-98050	JGOKHKEI_00180
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Flap endonuclease Xni	1:102024-102941	JGOKHKEI_00181
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:102950-103219	JGOKHKEI_00182
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:103197-103535	JGOKHKEI_00183
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:103532-104185	JGOKHKEI_00184
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:104187-104819	JGOKHKEI_00185
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:104875-105780	JGOKHKEI_00186
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:105926-106153	JGOKHKEI_00187
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:106199-106585	JGOKHKEI_00188
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:106724-106966	JGOKHKEI_00189
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Dihydrofolate reductase	1:107038-107619	JGOKHKEI_00190
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Thymidylate synthase 2	1:107616-108167	JGOKHKEI_00191
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:108296-109033	JGOKHKEI_00192
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Thymidylate synthase	1:109178-109492	JGOKHKEI_00193
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:109513-109776	JGOKHKEI_00194
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:109730-110056	JGOKHKEI_00195
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Ribonucleoside-diphosphate reductase 1 subunit alpha	1:110047-112311	JGOKHKEI_00196
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:112311-113009	JGOKHKEI_00197
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Ribonucleoside-diphosphate reductase 1 subunit beta	1:113006-113671	JGOKHKEI_00198
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Ribonucleoside-diphosphate reductase 1 subunit beta	1:114291-114770	JGOKHKEI_00199
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:114798-115208	JGOKHKEI_00200
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:115261-116385	JGOKHKEI_00201
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:116447-116953	JGOKHKEI_00202
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:116944-117297	JGOKHKEI_00203
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:117294-117593	JGOKHKEI_00204
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:117590-117817	JGOKHKEI_00205
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:117818-118723	JGOKHKEI_00206
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:118723-118920	JGOKHKEI_00207
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:118913-119113	JGOKHKEI_00208
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:119116-119391	JGOKHKEI_00209
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:119454-119693	JGOKHKEI_00210
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:119690-120028	JGOKHKEI_00211
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	tRNA-specific adenosine deaminase	1:120025-120606	JGOKHKEI_00212
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:120606-120842	JGOKHKEI_00213
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:120843-121151	JGOKHKEI_00214
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:121208-121543	JGOKHKEI_00215
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:121691-121939	JGOKHKEI_00216
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:122184-122360	JGOKHKEI_00217
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:122471-122803	JGOKHKEI_00218
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:122872-123237	JGOKHKEI_00219
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:123279-123566	JGOKHKEI_00220
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:123566-123763	JGOKHKEI_00221
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:123760-123966	JGOKHKEI_00222
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:123959-124417	JGOKHKEI_00223
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:124414-125250	JGOKHKEI_00224
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:125250-125519	JGOKHKEI_00225
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	DNA ligase	1:125516-126979	JGOKHKEI_00226
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:126976-127164	JGOKHKEI_00227
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:127222-129270	JGOKHKEI_00228
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:129274-129459	JGOKHKEI_00229
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:129456-129659	JGOKHKEI_00230
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:129692-129982	JGOKHKEI_00231
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c130976-130011	JGOKHKEI_00232
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c132070-130976	JGOKHKEI_00233
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c133851-132079	JGOKHKEI_00234
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c134381-133848	JGOKHKEI_00235
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c135501-134326	JGOKHKEI_00236
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c136250-135501	JGOKHKEI_00237
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:136301-136927	JGOKHKEI_00238
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:136927-137325	JGOKHKEI_00239
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:137402-137815	JGOKHKEI_00240
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:137815-138039	JGOKHKEI_00241
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:138066-138233	JGOKHKEI_00242
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c138519-138289	JGOKHKEI_00243
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	ATP-dependent RNA helicase SrmB	1:c140053-138545	JGOKHKEI_00244
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c140673-140056	JGOKHKEI_00245
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:140723-141403	JGOKHKEI_00246
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:141413-142543	JGOKHKEI_00247
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:142645-142848	JGOKHKEI_00248
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:142835-143113	JGOKHKEI_00249
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:143123-144127	JGOKHKEI_00250
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c145440-144157	JGOKHKEI_00251
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:145540-146202	JGOKHKEI_00252
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c147817-146252	JGOKHKEI_00253
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c148645-147836	JGOKHKEI_00254
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c149314-148676	JGOKHKEI_00255
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c149739-149314	JGOKHKEI_00256
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c149981-149739	JGOKHKEI_00257
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c151555-149981	JGOKHKEI_00258
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c152130-151639	JGOKHKEI_00259
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c154226-152247	JGOKHKEI_00260
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c156090-154258	JGOKHKEI_00261
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c156568-156074	JGOKHKEI_00262
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c157395-156577	JGOKHKEI_00263
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c158207-157437	JGOKHKEI_00264
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c159138-158209	JGOKHKEI_00265
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c160633-159170	JGOKHKEI_00266
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c162213-160630	JGOKHKEI_00267
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c162869-162210	JGOKHKEI_00268
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c164677-162869	JGOKHKEI_00269
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c165543-164677	JGOKHKEI_00270
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c166611-165607	JGOKHKEI_00271
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	1:c168640-166604	JGOKHKEI_00272
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:tRNA	Gln	1:11312-11385	JGOKHKEI_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:tRNA	Leu	1:11386-11472	JGOKHKEI_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:tRNA	Gly	1:11478-11551	JGOKHKEI_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:tRNA	Pro	1:11562-11636	JGOKHKEI_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:tRNA	Ser	1:11637-11725	JGOKHKEI_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:tRNA	Thr	1:11732-11807	JGOKHKEI_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:tRNA	Met	1:11809-11882	JGOKHKEI_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:tRNA	Arg	1:12595-12669	JGOKHKEI_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:rRNA	5S ribosomal RNA	2:c431-321	JGOKHKEI_00273
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:rRNA	23S ribosomal RNA	2:c3406-505	JGOKHKEI_00274
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:tRNA	Ala	2:c3654-3579	JGOKHKEI_00275
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:tRNA	Ile	2:c3773-3697	JGOKHKEI_00276
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:rRNA	16S ribosomal RNA (partial)	2:c4412-3844	JGOKHKEI_00277
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	3:324-704	JGOKHKEI_00278
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	3:c1344-685	JGOKHKEI_00279
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	3:c1772-1344	JGOKHKEI_00280
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	3:c2183-1776	JGOKHKEI_00281
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	4:c416-147	JGOKHKEI_00282
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	4:c942-523	JGOKHKEI_00283
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	4:c1470-952	JGOKHKEI_00284
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	4:c1935-1498	JGOKHKEI_00285
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	4:c2287-1946	JGOKHKEI_00286
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	5:292-1509	JGOKHKEI_00287
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	5:1493-2098	JGOKHKEI_00288
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	6:c985-311	JGOKHKEI_00289
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	7:138-743	JGOKHKEI_00290
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Modification methylase HindIII	7:c1858-740	JGOKHKEI_00291
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	8:849-1355	JGOKHKEI_00292
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	9:c340-134	JGOKHKEI_00293
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	9:c643-353	JGOKHKEI_00294
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	9:c1487-654	JGOKHKEI_00295
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	6-phospho-beta-glucosidase BglB	12:1-426	JGOKHKEI_00296
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	DNA-invertase hin	12:c950-393	JGOKHKEI_00297
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	14:c996-172	JGOKHKEI_00298
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	15:200-529	JGOKHKEI_00299
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	15:c1174-650	JGOKHKEI_00300
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Dihydrofolate reductase	16:167-781	JGOKHKEI_00301
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	16:771-1118	JGOKHKEI_00302
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	DNA mismatch repair protein MutS	17:c1061-183	JGOKHKEI_00303
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Peptidoglycan glycosyltransferase MrdB	19:8-487	JGOKHKEI_00304
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:rRNA	16S ribosomal RNA (partial)	20:485-1157	JGOKHKEI_00305
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	DNA relaxase MbeA	21:c1119-34	JGOKHKEI_00306
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	22:c1081-440	JGOKHKEI_00307
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	23:c463-218	JGOKHKEI_00308
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	23:c630-460	JGOKHKEI_00309
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	23:c919-584	JGOKHKEI_00310
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	24:163-438	JGOKHKEI_00311
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	25:c392-75	JGOKHKEI_00312
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	25:c685-392	JGOKHKEI_00313
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	GMP synthase [glutamine-hydrolyzing]	27:201-671	JGOKHKEI_00314
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Ammonia channel	28:68-595	JGOKHKEI_00315
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	Cell division protein ZapA	30:556-885	JGOKHKEI_00316
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:CDS	hypothetical protein	31:c478-134	JGOKHKEI_00317
+
+DiscRep_ALL:NO_ANNOTATION::6 bioseqs have no features
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:10 (length 1424)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:11 (length 1399)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:13 (length 1305)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:18 (length 1171)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:26 (length 1067)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:29 (length 1006)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+FATAL: DiscRep_ALL:DISC_SUSPECT_RRNA_PRODUCTS::2 rRNA product names contain suspect phrase
+FATAL: DiscRep_SUB:DISC_SUSPECT_RRNA_PRODUCTS::2 rRNA product names contains 'partial'
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:rRNA	16S ribosomal RNA (partial)	2:c4412-3844	JGOKHKEI_00277
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:rRNA	16S ribosomal RNA (partial)	20:485-1157	JGOKHKEI_00305
+
+FATAL: DiscRep_ALL:DISC_SHORT_RRNA::2 rRNA features are too short
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:rRNA	16S ribosomal RNA (partial)	2:c4412-3844	JGOKHKEI_00277
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:rRNA	16S ribosomal RNA (partial)	20:485-1157	JGOKHKEI_00305
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::31 comment descriptors were found (all same)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:2:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:6:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:8:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:10:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:11:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:13:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:14:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:17:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:18:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:19:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:20:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:21:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:22:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:24:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:26:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:27:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:28:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:29:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:30:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:31:Annotated using prokka 1.13 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::7 protein sequences are shorter than 50 aa.
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_51 (length 34)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_79 (length 43)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_144 (length 46)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_151 (length 32)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_153 (length 36)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_158 (length 49)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_163 (length 39)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::31 bioseqs are missing GenomeAssembly structured comments
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1 (length 168920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:2 (length 4412)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3 (length 2671)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4 (length 2426)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5 (length 2152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:6 (length 1920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7 (length 1868)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:8 (length 1510)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9 (length 1490)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:10 (length 1424)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:11 (length 1399)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12 (length 1326)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:13 (length 1305)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:14 (length 1276)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15 (length 1263)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16 (length 1215)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:17 (length 1193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:18 (length 1171)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:19 (length 1162)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:20 (length 1157)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:21 (length 1151)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:22 (length 1118)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23 (length 1103)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:24 (length 1077)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25 (length 1071)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:26 (length 1067)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:27 (length 1058)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:28 (length 1027)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:29 (length 1006)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:30 (length 1002)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:31 (length 1000)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::31 molecule types are not set as mRNA.
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1 (length 168920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:2 (length 4412)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3 (length 2671)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4 (length 2426)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5 (length 2152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:6 (length 1920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7 (length 1868)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:8 (length 1510)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9 (length 1490)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:10 (length 1424)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:11 (length 1399)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12 (length 1326)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:13 (length 1305)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:14 (length 1276)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15 (length 1263)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16 (length 1215)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:17 (length 1193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:18 (length 1171)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:19 (length 1162)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:20 (length 1157)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:21 (length 1151)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:22 (length 1118)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23 (length 1103)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:24 (length 1077)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25 (length 1071)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:26 (length 1067)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:27 (length 1058)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:28 (length 1027)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:29 (length 1006)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:30 (length 1002)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:31 (length 1000)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::31 technique are not set as TSA
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1 (length 168920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:2 (length 4412)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3 (length 2671)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4 (length 2426)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5 (length 2152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:6 (length 1920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7 (length 1868)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:8 (length 1510)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9 (length 1490)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:10 (length 1424)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:11 (length 1399)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12 (length 1326)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:13 (length 1305)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:14 (length 1276)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15 (length 1263)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16 (length 1215)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:17 (length 1193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:18 (length 1171)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:19 (length 1162)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:20 (length 1157)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:21 (length 1151)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:22 (length 1118)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23 (length 1103)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:24 (length 1077)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25 (length 1071)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:26 (length 1067)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:27 (length 1058)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:28 (length 1027)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:29 (length 1006)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:30 (length 1002)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:31 (length 1000)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::31 sequences do not include structured comments.
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1 (length 168920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:2 (length 4412)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3 (length 2671)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4 (length 2426)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5 (length 2152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:6 (length 1920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7 (length 1868)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:8 (length 1510)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9 (length 1490)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:10 (length 1424)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:11 (length 1399)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12 (length 1326)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:13 (length 1305)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:14 (length 1276)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15 (length 1263)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16 (length 1215)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:17 (length 1193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:18 (length 1171)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:19 (length 1162)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:20 (length 1157)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:21 (length 1151)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:22 (length 1118)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23 (length 1103)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:24 (length 1077)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25 (length 1071)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:26 (length 1067)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:27 (length 1058)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:28 (length 1027)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:29 (length 1006)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:30 (length 1002)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:31 (length 1000)
+
+DiscRep_ALL:MISSING_PROJECT::334 sequences do not include project.
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1 (length 168920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_1 (length 660)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_2 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_3 (length 198)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_4 (length 164)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_5 (length 575)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_6 (length 196)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_7 (length 150)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_8 (length 274)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_9 (length 176)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_10 (length 241)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_11 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_12 (length 152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_13 (length 95)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_14 (length 61)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_15 (length 136)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_16 (length 95)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_17 (length 221)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_18 (length 87)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_19 (length 111)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_20 (length 197)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_21 (length 202)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_22 (length 130)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_23 (length 120)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_24 (length 102)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_25 (length 146)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_26 (length 164)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_27 (length 193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_28 (length 100)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_29 (length 138)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_30 (length 216)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_31 (length 109)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_32 (length 120)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_33 (length 73)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_34 (length 88)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_35 (length 92)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_36 (length 153)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_37 (length 181)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_38 (length 115)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_39 (length 155)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_40 (length 70)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_41 (length 61)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_42 (length 62)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_43 (length 193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_44 (length 70)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_45 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_46 (length 128)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_47 (length 62)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_48 (length 60)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_49 (length 64)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_50 (length 57)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_51 (length 34)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_52 (length 181)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_53 (length 259)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_54 (length 336)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_55 (length 322)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_56 (length 100)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_57 (length 175)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_58 (length 133)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_59 (length 296)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_60 (length 340)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_61 (length 343)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_62 (length 308)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_63 (length 104)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_64 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_65 (length 87)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_66 (length 102)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_67 (length 106)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_68 (length 161)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_69 (length 157)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_70 (length 181)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_71 (length 258)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_72 (length 397)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_73 (length 210)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_74 (length 156)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_75 (length 70)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_76 (length 102)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_77 (length 60)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_78 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_79 (length 43)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_80 (length 66)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_81 (length 108)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_82 (length 71)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_83 (length 185)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_84 (length 72)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_85 (length 105)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_86 (length 67)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_87 (length 63)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_88 (length 264)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_89 (length 400)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_90 (length 339)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_91 (length 87)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_92 (length 68)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_93 (length 560)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_94 (length 62)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_95 (length 129)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_96 (length 228)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_97 (length 319)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_98 (length 187)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_99 (length 122)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_100 (length 898)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_101 (length 126)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_102 (length 83)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_103 (length 246)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_104 (length 351)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_105 (length 221)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_106 (length 391)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_107 (length 114)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_108 (length 475)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_109 (length 60)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_110 (length 85)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_111 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_112 (length 208)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_113 (length 54)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_114 (length 342)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_115 (length 66)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_116 (length 259)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_117 (length 171)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_118 (length 224)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_119 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_120 (length 68)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_121 (length 113)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_122 (length 161)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_123 (length 67)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_124 (length 54)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_125 (length 156)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_126 (length 60)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_127 (length 207)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_128 (length 200)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_129 (length 248)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_130 (length 103)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_131 (length 439)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_132 (length 81)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_133 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_134 (length 227)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_135 (length 166)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_136 (length 143)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_137 (length 162)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_138 (length 71)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_139 (length 141)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_140 (length 58)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_141 (length 86)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_142 (length 516)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_143 (length 272)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_144 (length 46)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_145 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_146 (length 67)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_147 (length 725)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_148 (length 312)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_149 (length 64)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_150 (length 185)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_151 (length 32)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_152 (length 65)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_153 (length 36)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_154 (length 71)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_155 (length 151)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_156 (length 51)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_157 (length 442)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_158 (length 49)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_159 (length 211)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_160 (length 109)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_161 (length 152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_162 (length 98)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_163 (length 39)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_164 (length 92)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_165 (length 50)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_166 (length 90)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_167 (length 218)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_168 (length 183)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_169 (length 1026)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_170 (length 221)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_171 (length 372)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_172 (length 1289)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_173 (length 305)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_174 (length 89)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_175 (length 112)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_176 (length 217)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_177 (length 210)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_178 (length 301)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_179 (length 75)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_180 (length 128)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_181 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_182 (length 193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_183 (length 183)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_184 (length 245)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_185 (length 104)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_186 (length 87)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_187 (length 108)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_188 (length 754)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_189 (length 232)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_190 (length 221)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_191 (length 159)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_192 (length 136)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_193 (length 374)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_194 (length 168)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_195 (length 117)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_196 (length 99)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_197 (length 75)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_198 (length 301)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_199 (length 65)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_200 (length 66)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_201 (length 91)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_202 (length 79)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_203 (length 112)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_204 (length 193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_205 (length 78)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_206 (length 102)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_207 (length 111)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_208 (length 82)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_209 (length 58)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_210 (length 110)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_211 (length 121)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_212 (length 95)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_213 (length 65)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_214 (length 68)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_215 (length 152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_216 (length 278)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_217 (length 89)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_218 (length 487)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_219 (length 62)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_220 (length 682)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_221 (length 61)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_222 (length 67)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_223 (length 96)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_224 (length 321)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_225 (length 364)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_226 (length 590)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_227 (length 177)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_228 (length 391)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_229 (length 249)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_230 (length 208)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_231 (length 132)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_232 (length 137)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_233 (length 74)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_234 (length 55)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_235 (length 76)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_236 (length 502)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_237 (length 205)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_238 (length 226)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_239 (length 376)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_240 (length 67)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_241 (length 92)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_242 (length 334)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_243 (length 427)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_244 (length 220)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_245 (length 521)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_246 (length 269)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_247 (length 212)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_248 (length 141)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_249 (length 80)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_250 (length 524)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_251 (length 163)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_252 (length 659)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_253 (length 610)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_254 (length 164)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_255 (length 272)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_256 (length 256)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_257 (length 309)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_258 (length 487)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_259 (length 527)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_260 (length 219)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_261 (length 602)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_262 (length 288)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_263 (length 334)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1_264 (length 678)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:2 (length 4412)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3 (length 2671)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3_1 (length 126)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3_2 (length 219)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3_3 (length 142)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3_4 (length 135)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4 (length 2426)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4_1 (length 89)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4_2 (length 139)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4_3 (length 172)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4_4 (length 145)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4_5 (length 113)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5 (length 2152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5_1 (length 405)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5_2 (length 201)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:6 (length 1920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:6_1 (length 224)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7 (length 1868)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7_1 (length 201)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7_2 (length 372)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:8 (length 1510)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:8_1 (length 168)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9 (length 1490)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9_1 (length 68)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9_2 (length 96)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9_3 (length 277)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:10 (length 1424)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:11 (length 1399)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12 (length 1326)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12_1 (length 141)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12_2 (length 185)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:13 (length 1305)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:14 (length 1276)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:14_1 (length 274)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15 (length 1263)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15_1 (length 109)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15_2 (length 174)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16 (length 1215)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16_1 (length 204)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16_2 (length 115)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:17 (length 1193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:17_1 (length 292)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:18 (length 1171)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:19 (length 1162)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:19_1 (length 159)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:20 (length 1157)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:21 (length 1151)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:21_1 (length 361)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:22 (length 1118)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:22_1 (length 213)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23 (length 1103)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23_1 (length 81)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23_2 (length 56)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23_3 (length 111)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:24 (length 1077)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:24_1 (length 91)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25 (length 1071)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25_1 (length 105)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25_2 (length 97)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:26 (length 1067)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:27 (length 1058)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:27_1 (length 156)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:28 (length 1027)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:28_1 (length 175)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:29 (length 1006)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:30 (length 1002)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:30_1 (length 109)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:31 (length 1000)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:31_1 (length 114)
+
+FATAL: DiscRep_ALL:RRNA_NAME_CONFLICTS::2 rRNA product names are not standard. Correct the names to the standard format, eg "16S ribosomal RNA"
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:rRNA	16S ribosomal RNA (partial)	2:c4412-3844	JGOKHKEI_00277
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:rRNA	16S ribosomal RNA (partial)	20:485-1157	JGOKHKEI_00305
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::31 Molinfos are missing field technique
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:1 (length 168920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:2 (length 4412)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:3 (length 2671)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:4 (length 2426)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:5 (length 2152)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:6 (length 1920)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:7 (length 1868)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:8 (length 1510)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:9 (length 1490)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:10 (length 1424)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:11 (length 1399)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:12 (length 1326)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:13 (length 1305)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:14 (length 1276)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:15 (length 1263)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:16 (length 1215)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:17 (length 1193)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:18 (length 1171)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:19 (length 1162)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:20 (length 1157)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:21 (length 1151)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:22 (length 1118)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:23 (length 1103)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:24 (length 1077)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:25 (length 1071)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:26 (length 1067)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:27 (length 1058)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:28 (length 1027)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:29 (length 1006)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:30 (length 1002)
+/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka:31 (length 1000)
+

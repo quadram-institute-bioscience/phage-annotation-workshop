@@ -5,11 +5,11 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 
 # Get options: -t THREADS -o OUTDIR -a ACCESSION
-THREADS=1
+THREADS=4
 ACC="SRR1714822"
 OUTDIR="$DIR/../t4-demo/"
-
-while getopts "t:o:a:" opt; do
+CLEAN=0
+while getopts "ct:o:a:" opt; do
   case $opt in
     t)
       THREADS=$OPTARG
@@ -20,6 +20,9 @@ while getopts "t:o:a:" opt; do
     a)
       ACC=$OPTARG
       ;;
+    c)
+      CLEAN=1
+        ;;
     \?)
       echo "Invalid option: -$OPTARG" >&2
       exit 1
@@ -31,12 +34,46 @@ while getopts "t:o:a:" opt; do
   esac
 done
 
-if [[ ! -e "$OUTDIR"/${ACC}_1.fastq.gz ]]; then
+if [[ ! -e ""$OUTDIR""/${ACC}_1.fastq.gz ]]; then
+    echo "Download the dataset first ($ACC)"
+    exit 1
+fi
+R1="$OUTDIR"/${ACC}_1.fastq.gz"
+R2="$OUTDIR"/${ACC}_2.fastq.gz"
+if [[ ! -e "$OUTDIR"/"${ACC}"_1.fastq.gz ]]; then
+    echo "Download the dataset first ($ACC)"
+    exit 1
+fi
+
+if [[ ! -e "$OUTDIR"/"${ACC}"_2.fastq.gz ]]; then
+    echo "ERROR: Corrupted download of $ACC, R2 not found"
     echo "Download the dataset first ($ACC)"
     exit 1
 fi
 
 set -euxo pipefail
-unicycler -t $THREADS -1 $R1 -2 $R2 -o $OUTDIR/$ACC/ 
-prokka --cpus $THREADS -o $OUTDIR/$ACC/prokka --prefix prokka $OUTDIR/$ACC/assembly.fasta 
 
+# Assemble
+if [[ ! -e "$OUTDIR"/"$ACC"/assembly.fasta ]]; then
+ exit
+ unicycler -t $THREADS -1 $R1 -2 $R2 -o "$OUTDIR"/"$ACC"/ 
+fi
+# Statistics
+seqfu stats -b -n "$OUTDIR"/"$ACC"/assembly.fasta > "$OUTDIR"/"$ACC"/assembly.stats -b.txt
+seqfu stats -b    "$OUTDIR"/"$ACC"/assembly.fasta > "$OUTDIR"/"$ACC"/assembly.stats.t-bsv
+fu-cov "$OUTDIR"/"$ACC"/assembly.fasta --min-cov 0.8 --min-len 100 > "$OUTDIR"/"$ACC"/assembly.coverage.fasta
+
+
+# Annotation
+if [[ ! -e "$OUTDIR"/"$ACC"/prokka/prokka.faa ]]; then
+ prokka --cpus $THREADS -o "$OUTDIR"/"$ACC"/prokka --prefix prokka "$OUTDIR"/"$ACC"/assembly.fasta --force 
+fi
+
+if [[ ! -e "$OUTDIR"/"$ACC"/eggnog.emapper.hits ]]; then
+    emapper.py --cpu $THREADS -i "$OUTDIR"/"$ACC"/prokka.faa -o "$OUTDIR"/"$ACC"/eggnog
+fi
+
+if [[ $CLEAN -eq 1 ]]; then
+    rm -rf "$OUTDIR"/"$ACC"/*.gfa
+    gzip  "$OUTDIR"/"$ACC"/*.fasta
+fi
