@@ -38,8 +38,8 @@ if [[ ! -e ""$OUTDIR""/${ACC}_1.fastq.gz ]]; then
     echo "Download the dataset first ($ACC)"
     exit 1
 fi
-R1="$OUTDIR"/${ACC}_1.fastq.gz"
-R2="$OUTDIR"/${ACC}_2.fastq.gz"
+R1="$OUTDIR"/${ACC}_1.fastq.gz
+R2="$OUTDIR"/${ACC}_2.fastq.gz
 if [[ ! -e "$OUTDIR"/"${ACC}"_1.fastq.gz ]]; then
     echo "Download the dataset first ($ACC)"
     exit 1
@@ -50,17 +50,21 @@ if [[ ! -e "$OUTDIR"/"${ACC}"_2.fastq.gz ]]; then
     echo "Download the dataset first ($ACC)"
     exit 1
 fi
+alias fu-cov='/tmp/fucov'
 
-set -euxo pipefail
+set -euxo 
 
 # Assemble
 if [[ ! -e "$OUTDIR"/"$ACC"/assembly.fasta ]]; then
- exit
+  gunzip "$OUTDIR"/"$ACC"/assembly.fasta.gz
+fi
+
+if [[ ! -e "$OUTDIR"/"$ACC"/assembly.fasta ]]; then
  unicycler -t $THREADS -1 $R1 -2 $R2 -o "$OUTDIR"/"$ACC"/ 
 fi
 # Statistics
-seqfu stats -b -n "$OUTDIR"/"$ACC"/assembly.fasta > "$OUTDIR"/"$ACC"/assembly.stats -b.txt
-seqfu stats -b    "$OUTDIR"/"$ACC"/assembly.fasta > "$OUTDIR"/"$ACC"/assembly.stats.t-bsv
+seqfu stats -b -n "$OUTDIR"/"$ACC"/assembly.fasta > "$OUTDIR"/"$ACC"/assembly.stats.txt
+seqfu stats -b    "$OUTDIR"/"$ACC"/assembly.fasta > "$OUTDIR"/"$ACC"/assembly.stats.tsv
 fu-cov "$OUTDIR"/"$ACC"/assembly.fasta --min-cov 0.8 --min-len 100 > "$OUTDIR"/"$ACC"/assembly.coverage.fasta
 
 
@@ -74,6 +78,6 @@ if [[ ! -e "$OUTDIR"/"$ACC"/eggnog.emapper.hits ]]; then
 fi
 
 if [[ $CLEAN -eq 1 ]]; then
-    rm -rf "$OUTDIR"/"$ACC"/*.gfa
-    gzip  "$OUTDIR"/"$ACC"/*.fasta
+    rm -rf "$OUTDIR"/"$ACC"/*.gfa || true
+    gzip -f "$OUTDIR"/"$ACC"/*.fasta  || true
 fi
