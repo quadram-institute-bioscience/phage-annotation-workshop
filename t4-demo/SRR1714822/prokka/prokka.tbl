@@ -1,0 +1,1423 @@
+>Feature 1
+2760	778	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00001
+			product	hypothetical protein
+3062	2769	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00002
+			product	hypothetical protein
+3646	3050	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00003
+			product	hypothetical protein
+4121	3627	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00004
+			product	hypothetical protein
+5883	4156	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00005
+			product	hypothetical protein
+6457	5867	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00006
+			product	hypothetical protein
+6505	6957	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00007
+			product	hypothetical protein
+6957	7781	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00008
+			product	hypothetical protein
+7888	8418	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00009
+			product	hypothetical protein
+8468	9193	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00010
+			product	hypothetical protein
+9193	9435	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00011
+			product	hypothetical protein
+9432	9890	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00012
+			product	hypothetical protein
+9964	10251	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00013
+			product	hypothetical protein
+10328	10513	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00014
+			product	hypothetical protein
+10514	10924	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00015
+			product	hypothetical protein
+10927	11214	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00016
+			product	hypothetical protein
+11312	11385	tRNA
+			inference	COORDINATES:profile:Aragorn:1.2
+			locus_tag	JGOKHKEI_00017
+			product	tRNA-Gln(ttg)
+11386	11472	tRNA
+			inference	COORDINATES:profile:Aragorn:1.2
+			locus_tag	JGOKHKEI_00018
+			product	tRNA-Leu(taa)
+11478	11551	tRNA
+			inference	COORDINATES:profile:Aragorn:1.2
+			locus_tag	JGOKHKEI_00019
+			product	tRNA-Gly(tcc)
+11562	11636	tRNA
+			inference	COORDINATES:profile:Aragorn:1.2
+			locus_tag	JGOKHKEI_00020
+			product	tRNA-Pro(tgg)
+11637	11725	tRNA
+			inference	COORDINATES:profile:Aragorn:1.2
+			locus_tag	JGOKHKEI_00021
+			product	tRNA-Ser(tga)
+11732	11807	tRNA
+			inference	COORDINATES:profile:Aragorn:1.2
+			locus_tag	JGOKHKEI_00022
+			product	tRNA-Thr(tgt)
+11809	11882	tRNA
+			inference	COORDINATES:profile:Aragorn:1.2
+			locus_tag	JGOKHKEI_00023
+			product	tRNA-Met(cat)
+11924	12589	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00024
+			product	hypothetical protein
+12595	12669	tRNA
+			inference	COORDINATES:profile:Aragorn:1.2
+			locus_tag	JGOKHKEI_00025
+			product	tRNA-Arg(tct)
+13218	13481	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00026
+			product	hypothetical protein
+13538	13873	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00027
+			product	hypothetical protein
+13936	14529	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00028
+			product	hypothetical protein
+14572	15180	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00029
+			product	hypothetical protein
+15149	15541	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00030
+			product	hypothetical protein
+15523	15885	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00031
+			product	hypothetical protein
+15882	16190	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00032
+			product	hypothetical protein
+16366	16806	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00033
+			product	hypothetical protein
+16844	17338	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00034
+			product	hypothetical protein
+17426	18007	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00035
+			product	hypothetical protein
+18123	18425	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00036
+			product	hypothetical protein
+18486	18902	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00037
+			product	hypothetical protein
+18929	19579	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00038
+			product	hypothetical protein
+19576	19905	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00039
+			product	hypothetical protein
+19913	20275	CDS
+			dbxref	COG:COG3445
+			gene	grcA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P68066
+			locus_tag	JGOKHKEI_00040
+			product	Autonomous glycyl radical cofactor
+20275	20496	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00041
+			product	hypothetical protein
+20489	20755	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00042
+			product	hypothetical protein
+20755	21033	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00043
+			product	hypothetical protein
+21093	21554	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00044
+			product	hypothetical protein
+21562	22107	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00045
+			product	hypothetical protein
+22100	22447	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00046
+			product	hypothetical protein
+22444	22911	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00047
+			product	hypothetical protein
+22908	23120	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00048
+			product	hypothetical protein
+23117	23302	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00049
+			product	hypothetical protein
+23299	23487	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00050
+			product	hypothetical protein
+23489	24070	CDS
+			EC_number	2.7.1.21
+			gene	tdk
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P75070
+			locus_tag	JGOKHKEI_00051
+			product	Thymidine kinase
+24113	24325	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00052
+			product	hypothetical protein
+24338	24631	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00053
+			product	hypothetical protein
+24628	25014	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00054
+			product	hypothetical protein
+25111	25299	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00055
+			product	hypothetical protein
+25299	25481	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00056
+			product	hypothetical protein
+25484	25678	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00057
+			product	hypothetical protein
+25668	25841	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00058
+			product	hypothetical protein
+25902	26006	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00059
+			product	hypothetical protein
+26006	26551	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00060
+			product	hypothetical protein
+26626	27405	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00061
+			product	hypothetical protein
+27389	28399	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00062
+			product	hypothetical protein
+28514	29482	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00063
+			product	hypothetical protein
+29585	29887	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00064
+			product	hypothetical protein
+29948	30475	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00065
+			product	hypothetical protein
+30531	30932	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00066
+			product	hypothetical protein
+30940	31830	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00067
+			product	hypothetical protein
+31839	32861	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00068
+			product	hypothetical protein
+32889	33920	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00069
+			product	hypothetical protein
+33975	34901	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00070
+			product	hypothetical protein
+34898	35212	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00071
+			product	hypothetical protein
+35199	35441	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00072
+			product	hypothetical protein
+35443	35706	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00073
+			product	hypothetical protein
+35703	36011	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00074
+			product	hypothetical protein
+36008	36328	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00075
+			product	hypothetical protein
+36452	36937	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00076
+			product	hypothetical protein
+36979	37452	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00077
+			product	hypothetical protein
+37449	37994	CDS
+			EC_number	1.1.98.6
+			dbxref	COG:COG1328
+			gene	nrdD_1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P28903
+			locus_tag	JGOKHKEI_00078
+			product	Anaerobic ribonucleoside-triphosphate reductase
+38222	38998	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00079
+			product	hypothetical protein
+39106	40299	CDS
+			EC_number	1.1.98.6
+			dbxref	COG:COG1328
+			gene	nrdD_2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P28903
+			locus_tag	JGOKHKEI_00080
+			product	Anaerobic ribonucleoside-triphosphate reductase
+40296	40928	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00081
+			product	hypothetical protein
+40918	41388	CDS
+			EC_number	1.97.1.-
+			dbxref	COG:COG0602
+			gene	nrdG
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0A9N8
+			locus_tag	JGOKHKEI_00082
+			product	Anaerobic ribonucleoside-triphosphate reductase-activating protein
+41507	41719	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00083
+			product	hypothetical protein
+41722	42030	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00084
+			product	hypothetical protein
+42189	42371	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00085
+			product	hypothetical protein
+42364	42657	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00086
+			product	hypothetical protein
+42665	42796	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00087
+			product	hypothetical protein
+42797	42997	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00088
+			product	hypothetical protein
+43050	43376	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00089
+			product	hypothetical protein
+43379	43594	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00090
+			product	hypothetical protein
+43677	44234	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00091
+			product	hypothetical protein
+44218	44436	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00092
+			product	hypothetical protein
+44438	44755	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00093
+			product	hypothetical protein
+44724	44927	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00094
+			product	hypothetical protein
+44912	45103	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00095
+			product	hypothetical protein
+45155	45949	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00096
+			product	hypothetical protein
+46008	47210	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00097
+			product	hypothetical protein
+47387	48406	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00098
+			product	hypothetical protein
+48403	48666	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00099
+			product	hypothetical protein
+48647	48853	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00100
+			product	hypothetical protein
+48850	50532	CDS
+			gene	recF
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:HAMAP:MF_00365
+			locus_tag	JGOKHKEI_00101
+			product	DNA replication and repair protein RecF
+50588	50776	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00102
+			product	hypothetical protein
+50786	51175	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00103
+			product	hypothetical protein
+51231	51917	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00104
+			product	hypothetical protein
+51969	52928	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00105
+			product	hypothetical protein
+52930	53493	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00106
+			product	hypothetical protein
+53495	53863	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00107
+			product	hypothetical protein
+53942	56638	CDS
+			EC_number	2.7.7.7
+			dbxref	COG:COG0417
+			gene	polB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P21189
+			locus_tag	JGOKHKEI_00108
+			product	DNA polymerase II
+56823	57203	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00109
+			product	hypothetical protein
+57211	57462	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00110
+			product	hypothetical protein
+57616	58356	CDS
+			EC_number	2.1.1.45
+			dbxref	COG:COG0207
+			gene	thyA1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0CI79
+			locus_tag	JGOKHKEI_00111
+			product	Thymidylate synthase 1
+58380	59435	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00112
+			product	hypothetical protein
+59600	60265	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00113
+			product	hypothetical protein
+60274	61449	CDS
+			dbxref	COG:COG0468
+			gene	recA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q59560
+			locus_tag	JGOKHKEI_00114
+			product	Protein RecA
+61442	61786	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00115
+			product	hypothetical protein
+61796	63223	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00116
+			product	hypothetical protein
+63282	63464	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00117
+			product	hypothetical protein
+63466	63723	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00118
+			product	hypothetical protein
+63784	64077	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00119
+			product	hypothetical protein
+64077	64703	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00120
+			product	hypothetical protein
+64705	64869	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00121
+			product	hypothetical protein
+64872	65900	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00122
+			product	hypothetical protein
+66097	65897	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00123
+			product	hypothetical protein
+66210	66989	CDS
+			EC_number	2.1.1.72
+			gene	fokIM
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P14871
+			locus_tag	JGOKHKEI_00124
+			product	Modification methylase FokI
+67050	67565	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00125
+			product	hypothetical protein
+67555	68229	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00126
+			product	hypothetical protein
+68262	68504	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00127
+			product	hypothetical protein
+68603	68809	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00128
+			product	hypothetical protein
+68809	69150	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00129
+			product	hypothetical protein
+69159	69644	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00130
+			product	hypothetical protein
+69619	69822	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00131
+			product	hypothetical protein
+69819	69983	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00132
+			product	hypothetical protein
+69976	70446	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00133
+			product	hypothetical protein
+70455	70637	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00134
+			product	hypothetical protein
+70705	71328	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00135
+			product	hypothetical protein
+71325	71927	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00136
+			product	hypothetical protein
+72050	72796	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00137
+			product	hypothetical protein
+72798	73109	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00138
+			product	hypothetical protein
+73106	74425	CDS
+			EC_number	3.6.4.12
+			dbxref	COG:COG0507
+			gene	recD2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q9RT63
+			locus_tag	JGOKHKEI_00139
+			product	ATP-dependent RecD-like DNA helicase
+74447	74692	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00140
+			product	hypothetical protein
+74685	74927	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00141
+			product	hypothetical protein
+74927	75610	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00142
+			product	hypothetical protein
+75674	76174	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00143
+			product	hypothetical protein
+76185	76616	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00144
+			product	hypothetical protein
+76693	77181	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00145
+			product	hypothetical protein
+77352	77567	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00146
+			product	hypothetical protein
+77567	77992	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00147
+			product	hypothetical protein
+77995	78171	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00148
+			product	hypothetical protein
+78174	78434	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00149
+			product	hypothetical protein
+78504	80054	CDS
+			EC_number	5.99.1.3
+			dbxref	COG:COG0187
+			gene	parE
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:H7C794
+			locus_tag	JGOKHKEI_00150
+			product	DNA topoisomerase 4 subunit B
+80032	80850	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00151
+			product	hypothetical protein
+80831	80971	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00152
+			product	hypothetical protein
+81070	81363	CDS
+			EC_number	5.99.1.3
+			dbxref	COG:COG0187
+			gene	gyrB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q5SHZ4
+			locus_tag	JGOKHKEI_00153
+			product	DNA gyrase subunit B
+81418	81621	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00154
+			product	hypothetical protein
+81632	83809	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00155
+			product	hypothetical protein
+83821	84759	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00156
+			product	hypothetical protein
+84788	84982	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00157
+			product	hypothetical protein
+85066	85623	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00158
+			product	hypothetical protein
+85813	85911	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00159
+			product	hypothetical protein
+86098	86295	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00160
+			product	hypothetical protein
+86292	86402	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00161
+			product	hypothetical protein
+86411	86626	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00162
+			product	hypothetical protein
+86687	87142	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00163
+			product	hypothetical protein
+87230	87385	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00164
+			product	hypothetical protein
+87523	88851	CDS
+			EC_number	5.99.1.3
+			dbxref	COG:COG0188
+			gene	gyrA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q5SIL4
+			locus_tag	JGOKHKEI_00165
+			product	DNA gyrase subunit A
+88848	88997	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00166
+			product	hypothetical protein
+89125	89760	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00167
+			product	hypothetical protein
+89771	90100	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00168
+			product	hypothetical protein
+90097	90555	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00169
+			product	hypothetical protein
+90555	90851	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00170
+			product	hypothetical protein
+91028	91147	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00171
+			product	hypothetical protein
+91137	91415	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00172
+			product	hypothetical protein
+91412	91564	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00173
+			product	hypothetical protein
+91577	91849	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00174
+			product	hypothetical protein
+92506	91850	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00175
+			product	hypothetical protein
+93078	92527	CDS
+			gene	tfaE
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P09153
+			locus_tag	JGOKHKEI_00176
+			product	Prophage tail fiber assembly protein TfaE
+96186	93106	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00177
+			product	hypothetical protein
+96860	96195	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00178
+			product	hypothetical protein
+98041	96923	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00179
+			product	hypothetical protein
+101919	98050	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00180
+			product	hypothetical protein
+102024	102941	CDS
+			EC_number	3.1.-.-
+			gene	xni
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:HAMAP:MF_01192
+			locus_tag	JGOKHKEI_00181
+			product	Flap endonuclease Xni
+102950	103219	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00182
+			product	hypothetical protein
+103197	103535	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00183
+			product	hypothetical protein
+103532	104185	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00184
+			product	hypothetical protein
+104187	104819	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00185
+			product	hypothetical protein
+104875	105780	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00186
+			product	hypothetical protein
+105926	106153	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00187
+			product	hypothetical protein
+106199	106585	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00188
+			product	hypothetical protein
+106724	106966	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00189
+			product	hypothetical protein
+107038	107619	CDS
+			EC_number	1.5.1.3
+			dbxref	COG:COG0262
+			gene	folA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P04174
+			locus_tag	JGOKHKEI_00190
+			product	Dihydrofolate reductase
+107616	108167	CDS
+			EC_number	2.1.1.45
+			dbxref	COG:COG0207
+			gene	thyA2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P11044
+			locus_tag	JGOKHKEI_00191
+			product	Thymidylate synthase 2
+108296	109033	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00192
+			product	hypothetical protein
+109178	109492	CDS
+			EC_number	2.1.1.45
+			dbxref	COG:COG0207
+			gene	thyA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0A886
+			locus_tag	JGOKHKEI_00193
+			product	Thymidylate synthase
+109513	109776	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00194
+			product	hypothetical protein
+109730	110056	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00195
+			product	hypothetical protein
+110047	112311	CDS
+			EC_number	1.17.4.1
+			dbxref	COG:COG0209
+			gene	nrdA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P00452
+			locus_tag	JGOKHKEI_00196
+			product	Ribonucleoside-diphosphate reductase 1 subunit alpha
+112311	113009	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00197
+			product	hypothetical protein
+113006	113671	CDS
+			EC_number	1.17.4.1
+			dbxref	COG:COG0208
+			gene	nrdB_1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P69924
+			locus_tag	JGOKHKEI_00198
+			product	Ribonucleoside-diphosphate reductase 1 subunit beta
+114291	114770	CDS
+			EC_number	1.17.4.1
+			dbxref	COG:COG0208
+			gene	nrdB_2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P69924
+			locus_tag	JGOKHKEI_00199
+			product	Ribonucleoside-diphosphate reductase 1 subunit beta
+114798	115208	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00200
+			product	hypothetical protein
+115261	116385	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00201
+			product	hypothetical protein
+116447	116953	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00202
+			product	hypothetical protein
+116944	117297	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00203
+			product	hypothetical protein
+117294	117593	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00204
+			product	hypothetical protein
+117590	117817	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00205
+			product	hypothetical protein
+117818	118723	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00206
+			product	hypothetical protein
+118723	118920	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00207
+			product	hypothetical protein
+118913	119113	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00208
+			product	hypothetical protein
+119116	119391	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00209
+			product	hypothetical protein
+119454	119693	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00210
+			product	hypothetical protein
+119690	120028	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00211
+			product	hypothetical protein
+120025	120606	CDS
+			EC_number	3.5.4.33
+			dbxref	COG:COG0590
+			gene	tadA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P21335
+			locus_tag	JGOKHKEI_00212
+			product	tRNA-specific adenosine deaminase
+120606	120842	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00213
+			product	hypothetical protein
+120843	121151	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00214
+			product	hypothetical protein
+121208	121543	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00215
+			product	hypothetical protein
+121691	121939	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00216
+			product	hypothetical protein
+122184	122360	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00217
+			product	hypothetical protein
+122471	122803	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00218
+			product	hypothetical protein
+122872	123237	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00219
+			product	hypothetical protein
+123279	123566	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00220
+			product	hypothetical protein
+123566	123763	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00221
+			product	hypothetical protein
+123760	123966	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00222
+			product	hypothetical protein
+123959	124417	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00223
+			product	hypothetical protein
+124414	125250	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00224
+			product	hypothetical protein
+125250	125519	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00225
+			product	hypothetical protein
+125516	126979	CDS
+			EC_number	6.5.1.1
+			gene	lig
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:HAMAP:MF_00407
+			locus_tag	JGOKHKEI_00226
+			product	DNA ligase
+126976	127164	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00227
+			product	hypothetical protein
+127222	129270	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00228
+			product	hypothetical protein
+129274	129459	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00229
+			product	hypothetical protein
+129456	129659	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00230
+			product	hypothetical protein
+129692	129982	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00231
+			product	hypothetical protein
+130976	130011	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00232
+			product	hypothetical protein
+132070	130976	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00233
+			product	hypothetical protein
+133851	132079	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00234
+			product	hypothetical protein
+134381	133848	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00235
+			product	hypothetical protein
+135501	134326	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00236
+			product	hypothetical protein
+136250	135501	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00237
+			product	hypothetical protein
+136301	136927	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00238
+			product	hypothetical protein
+136927	137325	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00239
+			product	hypothetical protein
+137402	137815	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00240
+			product	hypothetical protein
+137815	138039	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00241
+			product	hypothetical protein
+138066	138233	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00242
+			product	hypothetical protein
+138519	138289	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00243
+			product	hypothetical protein
+140053	138545	CDS
+			EC_number	3.6.4.13
+			gene	srmB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:HAMAP:MF_00967
+			locus_tag	JGOKHKEI_00244
+			product	ATP-dependent RNA helicase SrmB
+140673	140056	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00245
+			product	hypothetical protein
+140723	141403	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00246
+			product	hypothetical protein
+141413	142543	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00247
+			product	hypothetical protein
+142645	142848	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00248
+			product	hypothetical protein
+142835	143113	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00249
+			product	hypothetical protein
+143123	144127	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00250
+			product	hypothetical protein
+145440	144157	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00251
+			product	hypothetical protein
+145540	146202	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00252
+			product	hypothetical protein
+147817	146252	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00253
+			product	hypothetical protein
+148645	147836	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00254
+			product	hypothetical protein
+149314	148676	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00255
+			product	hypothetical protein
+149739	149314	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00256
+			product	hypothetical protein
+149981	149739	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00257
+			product	hypothetical protein
+151555	149981	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00258
+			product	hypothetical protein
+152130	151639	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00259
+			product	hypothetical protein
+154226	152247	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00260
+			product	hypothetical protein
+156090	154258	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00261
+			product	hypothetical protein
+156568	156074	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00262
+			product	hypothetical protein
+157395	156577	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00263
+			product	hypothetical protein
+158207	157437	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00264
+			product	hypothetical protein
+159138	158209	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00265
+			product	hypothetical protein
+160633	159170	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00266
+			product	hypothetical protein
+162213	160630	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00267
+			product	hypothetical protein
+162869	162210	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00268
+			product	hypothetical protein
+164677	162869	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00269
+			product	hypothetical protein
+165543	164677	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00270
+			product	hypothetical protein
+166611	165607	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00271
+			product	hypothetical protein
+168640	166604	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00272
+			product	hypothetical protein
+>Feature 2
+431	321	rRNA
+			locus_tag	JGOKHKEI_00273
+			product	5S ribosomal RNA
+			score	1e-12
+3406	505	rRNA
+			locus_tag	JGOKHKEI_00274
+			product	23S ribosomal RNA
+			score	0
+3654	3579	tRNA
+			inference	COORDINATES:profile:Aragorn:1.2
+			locus_tag	JGOKHKEI_00275
+			product	tRNA-Ala(tgc)
+3773	3697	tRNA
+			inference	COORDINATES:profile:Aragorn:1.2
+			locus_tag	JGOKHKEI_00276
+			product	tRNA-Ile(gat)
+4412	3844	rRNA
+			locus_tag	JGOKHKEI_00277
+			note	aligned only 35 percent of the 16S ribosomal RNA
+			product	16S ribosomal RNA (partial)
+			score	5.9e-151
+>Feature 3
+324	704	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00278
+			product	hypothetical protein
+1344	685	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00279
+			product	hypothetical protein
+1772	1344	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00280
+			product	hypothetical protein
+2183	1776	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00281
+			product	hypothetical protein
+>Feature 4
+416	147	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00282
+			product	hypothetical protein
+942	523	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00283
+			product	hypothetical protein
+1470	952	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00284
+			product	hypothetical protein
+1935	1498	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00285
+			product	hypothetical protein
+2287	1946	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00286
+			product	hypothetical protein
+>Feature 5
+292	1509	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00287
+			product	hypothetical protein
+1493	2098	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00288
+			product	hypothetical protein
+>Feature 6
+985	311	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00289
+			product	hypothetical protein
+>Feature 7
+138	743	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00290
+			product	hypothetical protein
+1858	740	CDS
+			EC_number	2.1.1.72
+			gene	hindIIIM
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P43871
+			locus_tag	JGOKHKEI_00291
+			product	Modification methylase HindIII
+>Feature 8
+849	1355	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00292
+			product	hypothetical protein
+>Feature 9
+340	134	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00293
+			product	hypothetical protein
+643	353	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00294
+			product	hypothetical protein
+1487	654	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00295
+			product	hypothetical protein
+>Feature 10
+>Feature 11
+>Feature 12
+1	426	CDS
+			EC_number	3.2.1.86
+			dbxref	COG:COG2723
+			gene	bglB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P11988
+			locus_tag	JGOKHKEI_00296
+			product	6-phospho-beta-glucosidase BglB
+950	393	CDS
+			dbxref	COG:COG1961
+			gene	hin
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P03013
+			locus_tag	JGOKHKEI_00297
+			product	DNA-invertase hin
+>Feature 13
+>Feature 14
+996	172	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00298
+			product	hypothetical protein
+>Feature 15
+200	529	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00299
+			product	hypothetical protein
+1174	650	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00300
+			product	hypothetical protein
+>Feature 16
+167	781	CDS
+			EC_number	1.5.1.3
+			dbxref	COG:COG0262
+			gene	dhfR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q54801
+			locus_tag	JGOKHKEI_00301
+			product	Dihydrofolate reductase
+771	1118	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00302
+			product	hypothetical protein
+>Feature 17
+1061	183	CDS
+			dbxref	COG:COG0249
+			gene	mutS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P23909
+			locus_tag	JGOKHKEI_00303
+			product	DNA mismatch repair protein MutS
+>Feature 18
+>Feature 19
+8	487	CDS
+			EC_number	2.4.1.129
+			dbxref	COG:COG0772
+			gene	mrdB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0ABG7
+			locus_tag	JGOKHKEI_00304
+			product	Peptidoglycan glycosyltransferase MrdB
+>Feature 20
+485	1157	rRNA
+			locus_tag	JGOKHKEI_00305
+			note	aligned only 42 percent of the 16S ribosomal RNA
+			product	16S ribosomal RNA (partial)
+			score	8.9e-148
+>Feature 21
+1119	34	CDS
+			EC_number	5.99.1.2
+			gene	mbeA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P13658
+			locus_tag	JGOKHKEI_00306
+			product	DNA relaxase MbeA
+>Feature 22
+1081	440	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00307
+			product	hypothetical protein
+>Feature 23
+463	218	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00308
+			product	hypothetical protein
+630	460	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00309
+			product	hypothetical protein
+919	584	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00310
+			product	hypothetical protein
+>Feature 24
+163	438	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00311
+			product	hypothetical protein
+>Feature 25
+392	75	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00312
+			product	hypothetical protein
+685	392	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00313
+			product	hypothetical protein
+>Feature 26
+>Feature 27
+201	671	CDS
+			EC_number	6.3.5.2
+			dbxref	COG:COG0518
+			gene	guaA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P04079
+			locus_tag	JGOKHKEI_00314
+			product	GMP synthase [glutamine-hydrolyzing]
+>Feature 28
+68	595	CDS
+			gene	amtB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P69680
+			locus_tag	JGOKHKEI_00315
+			product	Ammonia channel
+>Feature 29
+>Feature 30
+556	885	CDS
+			dbxref	COG:COG3027
+			gene	zapA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0ADS2
+			locus_tag	JGOKHKEI_00316
+			product	Cell division protein ZapA
+>Feature 31
+478	134	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	JGOKHKEI_00317
+			product	hypothetical protein

@@ -1,0 +1,135 @@
+[13:59:00] This is prokka 1.13
+[13:59:00] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[13:59:00] Homepage is https://github.com/tseemann/prokka
+[13:59:00] Local time is Fri Oct 22 13:59:00 2021
+[13:59:00] You are telatina
+[13:59:00] Operating system is linux
+[13:59:00] You have BioPerl 1.007002
+[13:59:00] System has 8 cores.
+[13:59:00] Will use maximum of 1 cores.
+[13:59:00] Annotating as >>> Bacteria <<<
+[13:59:00] Generating locus_tag from '/usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/assembly.fasta' contents.
+[13:59:00] Setting --locustag JGOKHKEI from MD5 308414e24bb4594bf3c1fc5d3aad2a8b
+[13:59:00] Re-using existing --outdir /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka
+[13:59:00] Using filename prefix: prokka.XXX
+[13:59:00] Setting HMMER_NCPU=1
+[13:59:00] Writing log to: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.log
+[13:59:00] Command: /mnt/disk/miniconda3/bin/prokka --cpus 1 -o /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka --prefix prokka /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/assembly.fasta --force
+[13:59:00] Appending to PATH: /mnt/disk/miniconda3/bin
+[13:59:00] Looking for 'aragorn' - found /mnt/disk/miniconda3/bin/aragorn
+[13:59:00] Determined aragorn version is 1.2
+[13:59:00] Looking for 'barrnap' - found /mnt/disk/miniconda3/bin/barrnap
+[13:59:00] Determined barrnap version is 0.9
+[13:59:00] Looking for 'blastp' - found /mnt/disk/miniconda3/bin/blastp
+[13:59:00] Determined blastp version is 2.12
+[13:59:00] Looking for 'cmpress' - found /mnt/disk/miniconda3/bin/cmpress
+[13:59:00] Determined cmpress version is 1.1
+[13:59:00] Looking for 'cmscan' - found /mnt/disk/miniconda3/bin/cmscan
+[13:59:00] Determined cmscan version is 1.1
+[13:59:00] Looking for 'egrep' - found /usr/bin/egrep
+[13:59:00] Looking for 'find' - found /usr/bin/find
+[13:59:00] Looking for 'grep' - found /usr/bin/grep
+[13:59:00] Looking for 'hmmpress' - found /mnt/disk/miniconda3/bin/hmmpress
+[13:59:00] Determined hmmpress version is 3.3
+[13:59:00] Looking for 'hmmscan' - found /mnt/disk/miniconda3/bin/hmmscan
+[13:59:00] Determined hmmscan version is 3.3
+[13:59:00] Looking for 'java' - found /mnt/disk/miniconda3/bin/java
+[13:59:00] Looking for 'less' - found /usr/bin/less
+[13:59:00] Looking for 'makeblastdb' - found /mnt/disk/miniconda3/bin/makeblastdb
+[13:59:01] Determined makeblastdb version is 2.12
+[13:59:01] Looking for 'minced' - found /mnt/disk/miniconda3/bin/minced
+[13:59:01] Determined minced version is 4.2
+[13:59:01] Looking for 'parallel' - found /mnt/disk/miniconda3/bin/parallel
+[13:59:01] Determined parallel version is 20210822
+[13:59:01] Looking for 'prodigal' - found /mnt/disk/miniconda3/bin/prodigal
+[13:59:02] Determined prodigal version is 2.6
+[13:59:02] Looking for 'prokka-genbank_to_fasta_db' - found /mnt/disk/miniconda3/bin/prokka-genbank_to_fasta_db
+[13:59:02] Looking for 'sed' - found /mnt/disk/miniconda3/bin/sed
+[13:59:02] Looking for 'tbl2asn' - found /mnt/disk/miniconda3/bin/tbl2asn
+[13:59:02] Determined tbl2asn version is 25.8
+[13:59:02] Using genetic code table 11.
+[13:59:02] Loading and checking input file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/assembly.fasta
+[13:59:02] Wrote 31 contigs totalling 212940 bp.
+[13:59:02] Predicting tRNAs and tmRNAs
+[13:59:02] Running: aragorn -l -gc11  -w \/usr\/users\/QIB_fr009\/telatina\/git\/phage\-annotation\-workshop\/scripts\/\.\.\/t4\-demo\/\/SRR1714822\/prokka\/prokka\.fna
+[13:59:02] 1 tRNA-Gln [11312,11385] 34 (ttg)
+[13:59:02] 2 tRNA-Leu [11386,11472] 35 (taa)
+[13:59:02] 3 tRNA-Gly [11478,11551] 33 (tcc)
+[13:59:02] 4 tRNA-Pro [11562,11636] 35 (tgg)
+[13:59:02] 5 tRNA-Ser [11637,11725] 36 (tga)
+[13:59:02] 6 tRNA-Thr [11732,11807] 34 (tgt)
+[13:59:02] 7 tRNA-Met [11809,11882] 35 (cat)
+[13:59:02] 8 tRNA-Arg [12595,12669] 34 (tct)
+[13:59:02] 1 tRNA-Ala c[3579,3654] 34 (tgc)
+[13:59:02] 2 tRNA-Ile c[3697,3773] 35 (gat)
+[13:59:02] Found 10 tRNAs
+[13:59:02] Predicting Ribosomal RNAs
+[13:59:02] Running Barrnap with 1 threads
+[13:59:02] 1 2 321 5S ribosomal RNA
+[13:59:02] 2 2 505 23S ribosomal RNA
+[13:59:02] 3 2 3844 16S ribosomal RNA (partial)
+[13:59:02] 4 20 485 16S ribosomal RNA (partial)
+[13:59:02] Found 4 rRNAs
+[13:59:02] Skipping ncRNA search, enable with --rfam if desired.
+[13:59:02] Total of 14 tRNA + rRNA features
+[13:59:02] Searching for CRISPR repeats
+[13:59:03] Found 0 CRISPRs
+[13:59:03] Predicting coding sequences
+[13:59:03] Contigs total 212940 bp, so using single mode
+[13:59:03] Running: prodigal -i \/usr\/users\/QIB_fr009\/telatina\/git\/phage\-annotation\-workshop\/scripts\/\.\.\/t4\-demo\/\/SRR1714822\/prokka\/prokka\.fna -c -m -g 11 -p single -f sco -q
+[13:59:03] Found 303 CDS
+[13:59:03] Connecting features back to sequences
+[13:59:03] Not using genus-specific database. Try --usegenus to enable it.
+[13:59:03] Annotating CDS, please be patient.
+[13:59:03] Will use 1 CPUs for similarity searching.
+[13:59:03] There are still 303 unannotated CDS left (started with 303)
+[13:59:03] Will use blast to search against /mnt/disk/miniconda3/bin/../db/kingdom/Bacteria/sprot with 1 CPUs
+[13:59:03] Running: cat \/usr\/users\/QIB_fr009\/telatina\/git\/phage\-annotation\-workshop\/scripts\/\.\.\/t4\-demo\/\/SRR1714822\/prokka\/sprot\.faa | parallel --gnu --plain -j 1 --block 30282 --recstart '>' --pipe blastp -query - -db /mnt/disk/miniconda3/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/usr\/users\/QIB_fr009\/telatina\/git\/phage\-annotation\-workshop\/scripts\/\.\.\/t4\-demo\/\/SRR1714822\/prokka\/sprot\.blast 2> /dev/null
+[13:59:16] Modify product: Prophage tail fiber assembly protein homolog TfaE => Prophage tail fiber assembly protein TfaE
+[13:59:16] Cleaned 1 /product names
+[13:59:16] Deleting unwanted file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/sprot.faa
+[13:59:16] Deleting unwanted file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/sprot.blast
+[13:59:16] There are still 272 unannotated CDS left (started with 303)
+[13:59:16] Will use hmmer3 to search against /mnt/disk/miniconda3/bin/../db/hmm/HAMAP.hmm with 1 CPUs
+[13:59:16] Running: cat \/usr\/users\/QIB_fr009\/telatina\/git\/phage\-annotation\-workshop\/scripts\/\.\.\/t4\-demo\/\/SRR1714822\/prokka\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 1 --block 25950 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /mnt/disk/miniconda3/bin/../db/hmm/HAMAP.hmm /dev/stdin > \/usr\/users\/QIB_fr009\/telatina\/git\/phage\-annotation\-workshop\/scripts\/\.\.\/t4\-demo\/\/SRR1714822\/prokka\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[13:59:30] Deleting unwanted file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/HAMAP.hmm.faa
+[13:59:30] Deleting unwanted file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/HAMAP.hmm.hmmer3
+[13:59:30] Labelling remaining 268 proteins as 'hypothetical protein'
+[13:59:30] Possible /pseudo 'Ribonucleoside-diphosphate reductase 1 subunit beta' at 1 position 114291
+[13:59:30] Found 33 unique /gene codes.
+[13:59:30] Fixed 2 duplicate /gene - nrdD_1 nrdD_2
+[13:59:30] Fixed 2 duplicate /gene - nrdB_1 nrdB_2
+[13:59:30] Fixed 2 colliding /gene names.
+[13:59:30] Adding /locus_tag identifiers
+[13:59:30] Assigned 317 locus_tags to CDS and RNA features.
+[13:59:30] Writing outputs to /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/
+[13:59:30] Generating annotation statistics file
+[13:59:30] Generating Genbank and Sequin files
+[13:59:30] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.13 from https://github.com/tseemann/prokka' -Z \/usr\/users\/QIB_fr009\/telatina\/git\/phage\-annotation\-workshop\/scripts\/\.\.\/t4\-demo\/\/SRR1714822\/prokka\/prokka\.err -i \/usr\/users\/QIB_fr009\/telatina\/git\/phage\-annotation\-workshop\/scripts\/\.\.\/t4\-demo\/\/SRR1714822\/prokka\/prokka\.fsa 2> /dev/null
+[13:59:30] Deleting unwanted file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/errorsummary.val
+[13:59:30] Deleting unwanted file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.dr
+[13:59:30] Deleting unwanted file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.fixedproducts
+[13:59:30] Deleting unwanted file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.ecn
+[13:59:30] Deleting unwanted file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.val
+[13:59:30] Repairing broken .GBK output that tbl2asn produces...
+[13:59:30] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \/usr\/users\/QIB_fr009\/telatina\/git\/phage\-annotation\-workshop\/scripts\/\.\.\/t4\-demo\/\/SRR1714822\/prokka\/prokka\.gbf > \/usr\/users\/QIB_fr009\/telatina\/git\/phage\-annotation\-workshop\/scripts\/\.\.\/t4\-demo\/\/SRR1714822\/prokka\/prokka\.gbk
+[13:59:30] Deleting unwanted file: /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.gbf
+[13:59:30] Output files:
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.err
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.faa
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.txt
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.tsv
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.fna
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.fsa
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.gbk
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.log
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.gff
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.ffn
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.sqn
+[13:59:30] /usr/users/QIB_fr009/telatina/git/phage-annotation-workshop/scripts/../t4-demo//SRR1714822/prokka/prokka.tbl
+[13:59:30] Annotation finished successfully.
+[13:59:30] Walltime used: 0.50 minutes
+[13:59:30] If you use this result please cite the Prokka paper:
+[13:59:30] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[13:59:30] Type 'prokka --citation' for more details.
+[13:59:30] Thank you, come again.

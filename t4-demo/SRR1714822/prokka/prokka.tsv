@@ -1,0 +1,318 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+JGOKHKEI_00001	CDS	1983				hypothetical protein
+JGOKHKEI_00002	CDS	294				hypothetical protein
+JGOKHKEI_00003	CDS	597				hypothetical protein
+JGOKHKEI_00004	CDS	495				hypothetical protein
+JGOKHKEI_00005	CDS	1728				hypothetical protein
+JGOKHKEI_00006	CDS	591				hypothetical protein
+JGOKHKEI_00007	CDS	453				hypothetical protein
+JGOKHKEI_00008	CDS	825				hypothetical protein
+JGOKHKEI_00009	CDS	531				hypothetical protein
+JGOKHKEI_00010	CDS	726				hypothetical protein
+JGOKHKEI_00011	CDS	243				hypothetical protein
+JGOKHKEI_00012	CDS	459				hypothetical protein
+JGOKHKEI_00013	CDS	288				hypothetical protein
+JGOKHKEI_00014	CDS	186				hypothetical protein
+JGOKHKEI_00015	CDS	411				hypothetical protein
+JGOKHKEI_00016	CDS	288				hypothetical protein
+JGOKHKEI_00017	tRNA	74				tRNA-Gln(ttg)
+JGOKHKEI_00018	tRNA	87				tRNA-Leu(taa)
+JGOKHKEI_00019	tRNA	74				tRNA-Gly(tcc)
+JGOKHKEI_00020	tRNA	75				tRNA-Pro(tgg)
+JGOKHKEI_00021	tRNA	89				tRNA-Ser(tga)
+JGOKHKEI_00022	tRNA	76				tRNA-Thr(tgt)
+JGOKHKEI_00023	tRNA	74				tRNA-Met(cat)
+JGOKHKEI_00024	CDS	666				hypothetical protein
+JGOKHKEI_00025	tRNA	75				tRNA-Arg(tct)
+JGOKHKEI_00026	CDS	264				hypothetical protein
+JGOKHKEI_00027	CDS	336				hypothetical protein
+JGOKHKEI_00028	CDS	594				hypothetical protein
+JGOKHKEI_00029	CDS	609				hypothetical protein
+JGOKHKEI_00030	CDS	393				hypothetical protein
+JGOKHKEI_00031	CDS	363				hypothetical protein
+JGOKHKEI_00032	CDS	309				hypothetical protein
+JGOKHKEI_00033	CDS	441				hypothetical protein
+JGOKHKEI_00034	CDS	495				hypothetical protein
+JGOKHKEI_00035	CDS	582				hypothetical protein
+JGOKHKEI_00036	CDS	303				hypothetical protein
+JGOKHKEI_00037	CDS	417				hypothetical protein
+JGOKHKEI_00038	CDS	651				hypothetical protein
+JGOKHKEI_00039	CDS	330				hypothetical protein
+JGOKHKEI_00040	CDS	363	grcA		COG3445	Autonomous glycyl radical cofactor
+JGOKHKEI_00041	CDS	222				hypothetical protein
+JGOKHKEI_00042	CDS	267				hypothetical protein
+JGOKHKEI_00043	CDS	279				hypothetical protein
+JGOKHKEI_00044	CDS	462				hypothetical protein
+JGOKHKEI_00045	CDS	546				hypothetical protein
+JGOKHKEI_00046	CDS	348				hypothetical protein
+JGOKHKEI_00047	CDS	468				hypothetical protein
+JGOKHKEI_00048	CDS	213				hypothetical protein
+JGOKHKEI_00049	CDS	186				hypothetical protein
+JGOKHKEI_00050	CDS	189				hypothetical protein
+JGOKHKEI_00051	CDS	582	tdk	2.7.1.21		Thymidine kinase
+JGOKHKEI_00052	CDS	213				hypothetical protein
+JGOKHKEI_00053	CDS	294				hypothetical protein
+JGOKHKEI_00054	CDS	387				hypothetical protein
+JGOKHKEI_00055	CDS	189				hypothetical protein
+JGOKHKEI_00056	CDS	183				hypothetical protein
+JGOKHKEI_00057	CDS	195				hypothetical protein
+JGOKHKEI_00058	CDS	174				hypothetical protein
+JGOKHKEI_00059	CDS	105				hypothetical protein
+JGOKHKEI_00060	CDS	546				hypothetical protein
+JGOKHKEI_00061	CDS	780				hypothetical protein
+JGOKHKEI_00062	CDS	1011				hypothetical protein
+JGOKHKEI_00063	CDS	969				hypothetical protein
+JGOKHKEI_00064	CDS	303				hypothetical protein
+JGOKHKEI_00065	CDS	528				hypothetical protein
+JGOKHKEI_00066	CDS	402				hypothetical protein
+JGOKHKEI_00067	CDS	891				hypothetical protein
+JGOKHKEI_00068	CDS	1023				hypothetical protein
+JGOKHKEI_00069	CDS	1032				hypothetical protein
+JGOKHKEI_00070	CDS	927				hypothetical protein
+JGOKHKEI_00071	CDS	315				hypothetical protein
+JGOKHKEI_00072	CDS	243				hypothetical protein
+JGOKHKEI_00073	CDS	264				hypothetical protein
+JGOKHKEI_00074	CDS	309				hypothetical protein
+JGOKHKEI_00075	CDS	321				hypothetical protein
+JGOKHKEI_00076	CDS	486				hypothetical protein
+JGOKHKEI_00077	CDS	474				hypothetical protein
+JGOKHKEI_00078	CDS	546	nrdD_1	1.1.98.6	COG1328	Anaerobic ribonucleoside-triphosphate reductase
+JGOKHKEI_00079	CDS	777				hypothetical protein
+JGOKHKEI_00080	CDS	1194	nrdD_2	1.1.98.6	COG1328	Anaerobic ribonucleoside-triphosphate reductase
+JGOKHKEI_00081	CDS	633				hypothetical protein
+JGOKHKEI_00082	CDS	471	nrdG	1.97.1.-	COG0602	Anaerobic ribonucleoside-triphosphate reductase-activating protein
+JGOKHKEI_00083	CDS	213				hypothetical protein
+JGOKHKEI_00084	CDS	309				hypothetical protein
+JGOKHKEI_00085	CDS	183				hypothetical protein
+JGOKHKEI_00086	CDS	294				hypothetical protein
+JGOKHKEI_00087	CDS	132				hypothetical protein
+JGOKHKEI_00088	CDS	201				hypothetical protein
+JGOKHKEI_00089	CDS	327				hypothetical protein
+JGOKHKEI_00090	CDS	216				hypothetical protein
+JGOKHKEI_00091	CDS	558				hypothetical protein
+JGOKHKEI_00092	CDS	219				hypothetical protein
+JGOKHKEI_00093	CDS	318				hypothetical protein
+JGOKHKEI_00094	CDS	204				hypothetical protein
+JGOKHKEI_00095	CDS	192				hypothetical protein
+JGOKHKEI_00096	CDS	795				hypothetical protein
+JGOKHKEI_00097	CDS	1203				hypothetical protein
+JGOKHKEI_00098	CDS	1020				hypothetical protein
+JGOKHKEI_00099	CDS	264				hypothetical protein
+JGOKHKEI_00100	CDS	207				hypothetical protein
+JGOKHKEI_00101	CDS	1683	recF			DNA replication and repair protein RecF
+JGOKHKEI_00102	CDS	189				hypothetical protein
+JGOKHKEI_00103	CDS	390				hypothetical protein
+JGOKHKEI_00104	CDS	687				hypothetical protein
+JGOKHKEI_00105	CDS	960				hypothetical protein
+JGOKHKEI_00106	CDS	564				hypothetical protein
+JGOKHKEI_00107	CDS	369				hypothetical protein
+JGOKHKEI_00108	CDS	2697	polB	2.7.7.7	COG0417	DNA polymerase II
+JGOKHKEI_00109	CDS	381				hypothetical protein
+JGOKHKEI_00110	CDS	252				hypothetical protein
+JGOKHKEI_00111	CDS	741	thyA1	2.1.1.45	COG0207	Thymidylate synthase 1
+JGOKHKEI_00112	CDS	1056				hypothetical protein
+JGOKHKEI_00113	CDS	666				hypothetical protein
+JGOKHKEI_00114	CDS	1176	recA		COG0468	Protein RecA
+JGOKHKEI_00115	CDS	345				hypothetical protein
+JGOKHKEI_00116	CDS	1428				hypothetical protein
+JGOKHKEI_00117	CDS	183				hypothetical protein
+JGOKHKEI_00118	CDS	258				hypothetical protein
+JGOKHKEI_00119	CDS	294				hypothetical protein
+JGOKHKEI_00120	CDS	627				hypothetical protein
+JGOKHKEI_00121	CDS	165				hypothetical protein
+JGOKHKEI_00122	CDS	1029				hypothetical protein
+JGOKHKEI_00123	CDS	201				hypothetical protein
+JGOKHKEI_00124	CDS	780	fokIM	2.1.1.72		Modification methylase FokI
+JGOKHKEI_00125	CDS	516				hypothetical protein
+JGOKHKEI_00126	CDS	675				hypothetical protein
+JGOKHKEI_00127	CDS	243				hypothetical protein
+JGOKHKEI_00128	CDS	207				hypothetical protein
+JGOKHKEI_00129	CDS	342				hypothetical protein
+JGOKHKEI_00130	CDS	486				hypothetical protein
+JGOKHKEI_00131	CDS	204				hypothetical protein
+JGOKHKEI_00132	CDS	165				hypothetical protein
+JGOKHKEI_00133	CDS	471				hypothetical protein
+JGOKHKEI_00134	CDS	183				hypothetical protein
+JGOKHKEI_00135	CDS	624				hypothetical protein
+JGOKHKEI_00136	CDS	603				hypothetical protein
+JGOKHKEI_00137	CDS	747				hypothetical protein
+JGOKHKEI_00138	CDS	312				hypothetical protein
+JGOKHKEI_00139	CDS	1320	recD2	3.6.4.12	COG0507	ATP-dependent RecD-like DNA helicase
+JGOKHKEI_00140	CDS	246				hypothetical protein
+JGOKHKEI_00141	CDS	243				hypothetical protein
+JGOKHKEI_00142	CDS	684				hypothetical protein
+JGOKHKEI_00143	CDS	501				hypothetical protein
+JGOKHKEI_00144	CDS	432				hypothetical protein
+JGOKHKEI_00145	CDS	489				hypothetical protein
+JGOKHKEI_00146	CDS	216				hypothetical protein
+JGOKHKEI_00147	CDS	426				hypothetical protein
+JGOKHKEI_00148	CDS	177				hypothetical protein
+JGOKHKEI_00149	CDS	261				hypothetical protein
+JGOKHKEI_00150	CDS	1551	parE	5.99.1.3	COG0187	DNA topoisomerase 4 subunit B
+JGOKHKEI_00151	CDS	819				hypothetical protein
+JGOKHKEI_00152	CDS	141				hypothetical protein
+JGOKHKEI_00153	CDS	294	gyrB	5.99.1.3	COG0187	DNA gyrase subunit B
+JGOKHKEI_00154	CDS	204				hypothetical protein
+JGOKHKEI_00155	CDS	2178				hypothetical protein
+JGOKHKEI_00156	CDS	939				hypothetical protein
+JGOKHKEI_00157	CDS	195				hypothetical protein
+JGOKHKEI_00158	CDS	558				hypothetical protein
+JGOKHKEI_00159	CDS	99				hypothetical protein
+JGOKHKEI_00160	CDS	198				hypothetical protein
+JGOKHKEI_00161	CDS	111				hypothetical protein
+JGOKHKEI_00162	CDS	216				hypothetical protein
+JGOKHKEI_00163	CDS	456				hypothetical protein
+JGOKHKEI_00164	CDS	156				hypothetical protein
+JGOKHKEI_00165	CDS	1329	gyrA	5.99.1.3	COG0188	DNA gyrase subunit A
+JGOKHKEI_00166	CDS	150				hypothetical protein
+JGOKHKEI_00167	CDS	636				hypothetical protein
+JGOKHKEI_00168	CDS	330				hypothetical protein
+JGOKHKEI_00169	CDS	459				hypothetical protein
+JGOKHKEI_00170	CDS	297				hypothetical protein
+JGOKHKEI_00171	CDS	120				hypothetical protein
+JGOKHKEI_00172	CDS	279				hypothetical protein
+JGOKHKEI_00173	CDS	153				hypothetical protein
+JGOKHKEI_00174	CDS	273				hypothetical protein
+JGOKHKEI_00175	CDS	657				hypothetical protein
+JGOKHKEI_00176	CDS	552	tfaE			Prophage tail fiber assembly protein TfaE
+JGOKHKEI_00177	CDS	3081				hypothetical protein
+JGOKHKEI_00178	CDS	666				hypothetical protein
+JGOKHKEI_00179	CDS	1119				hypothetical protein
+JGOKHKEI_00180	CDS	3870				hypothetical protein
+JGOKHKEI_00181	CDS	918	xni	3.1.-.-		Flap endonuclease Xni
+JGOKHKEI_00182	CDS	270				hypothetical protein
+JGOKHKEI_00183	CDS	339				hypothetical protein
+JGOKHKEI_00184	CDS	654				hypothetical protein
+JGOKHKEI_00185	CDS	633				hypothetical protein
+JGOKHKEI_00186	CDS	906				hypothetical protein
+JGOKHKEI_00187	CDS	228				hypothetical protein
+JGOKHKEI_00188	CDS	387				hypothetical protein
+JGOKHKEI_00189	CDS	243				hypothetical protein
+JGOKHKEI_00190	CDS	582	folA	1.5.1.3	COG0262	Dihydrofolate reductase
+JGOKHKEI_00191	CDS	552	thyA2	2.1.1.45	COG0207	Thymidylate synthase 2
+JGOKHKEI_00192	CDS	738				hypothetical protein
+JGOKHKEI_00193	CDS	315	thyA	2.1.1.45	COG0207	Thymidylate synthase
+JGOKHKEI_00194	CDS	264				hypothetical protein
+JGOKHKEI_00195	CDS	327				hypothetical protein
+JGOKHKEI_00196	CDS	2265	nrdA	1.17.4.1	COG0209	Ribonucleoside-diphosphate reductase 1 subunit alpha
+JGOKHKEI_00197	CDS	699				hypothetical protein
+JGOKHKEI_00198	CDS	666	nrdB_1	1.17.4.1	COG0208	Ribonucleoside-diphosphate reductase 1 subunit beta
+JGOKHKEI_00199	CDS	480	nrdB_2	1.17.4.1	COG0208	Ribonucleoside-diphosphate reductase 1 subunit beta
+JGOKHKEI_00200	CDS	411				hypothetical protein
+JGOKHKEI_00201	CDS	1125				hypothetical protein
+JGOKHKEI_00202	CDS	507				hypothetical protein
+JGOKHKEI_00203	CDS	354				hypothetical protein
+JGOKHKEI_00204	CDS	300				hypothetical protein
+JGOKHKEI_00205	CDS	228				hypothetical protein
+JGOKHKEI_00206	CDS	906				hypothetical protein
+JGOKHKEI_00207	CDS	198				hypothetical protein
+JGOKHKEI_00208	CDS	201				hypothetical protein
+JGOKHKEI_00209	CDS	276				hypothetical protein
+JGOKHKEI_00210	CDS	240				hypothetical protein
+JGOKHKEI_00211	CDS	339				hypothetical protein
+JGOKHKEI_00212	CDS	582	tadA	3.5.4.33	COG0590	tRNA-specific adenosine deaminase
+JGOKHKEI_00213	CDS	237				hypothetical protein
+JGOKHKEI_00214	CDS	309				hypothetical protein
+JGOKHKEI_00215	CDS	336				hypothetical protein
+JGOKHKEI_00216	CDS	249				hypothetical protein
+JGOKHKEI_00217	CDS	177				hypothetical protein
+JGOKHKEI_00218	CDS	333				hypothetical protein
+JGOKHKEI_00219	CDS	366				hypothetical protein
+JGOKHKEI_00220	CDS	288				hypothetical protein
+JGOKHKEI_00221	CDS	198				hypothetical protein
+JGOKHKEI_00222	CDS	207				hypothetical protein
+JGOKHKEI_00223	CDS	459				hypothetical protein
+JGOKHKEI_00224	CDS	837				hypothetical protein
+JGOKHKEI_00225	CDS	270				hypothetical protein
+JGOKHKEI_00226	CDS	1464	lig	6.5.1.1		DNA ligase
+JGOKHKEI_00227	CDS	189				hypothetical protein
+JGOKHKEI_00228	CDS	2049				hypothetical protein
+JGOKHKEI_00229	CDS	186				hypothetical protein
+JGOKHKEI_00230	CDS	204				hypothetical protein
+JGOKHKEI_00231	CDS	291				hypothetical protein
+JGOKHKEI_00232	CDS	966				hypothetical protein
+JGOKHKEI_00233	CDS	1095				hypothetical protein
+JGOKHKEI_00234	CDS	1773				hypothetical protein
+JGOKHKEI_00235	CDS	534				hypothetical protein
+JGOKHKEI_00236	CDS	1176				hypothetical protein
+JGOKHKEI_00237	CDS	750				hypothetical protein
+JGOKHKEI_00238	CDS	627				hypothetical protein
+JGOKHKEI_00239	CDS	399				hypothetical protein
+JGOKHKEI_00240	CDS	414				hypothetical protein
+JGOKHKEI_00241	CDS	225				hypothetical protein
+JGOKHKEI_00242	CDS	168				hypothetical protein
+JGOKHKEI_00243	CDS	231				hypothetical protein
+JGOKHKEI_00244	CDS	1509	srmB	3.6.4.13		ATP-dependent RNA helicase SrmB
+JGOKHKEI_00245	CDS	618				hypothetical protein
+JGOKHKEI_00246	CDS	681				hypothetical protein
+JGOKHKEI_00247	CDS	1131				hypothetical protein
+JGOKHKEI_00248	CDS	204				hypothetical protein
+JGOKHKEI_00249	CDS	279				hypothetical protein
+JGOKHKEI_00250	CDS	1005				hypothetical protein
+JGOKHKEI_00251	CDS	1284				hypothetical protein
+JGOKHKEI_00252	CDS	663				hypothetical protein
+JGOKHKEI_00253	CDS	1566				hypothetical protein
+JGOKHKEI_00254	CDS	810				hypothetical protein
+JGOKHKEI_00255	CDS	639				hypothetical protein
+JGOKHKEI_00256	CDS	426				hypothetical protein
+JGOKHKEI_00257	CDS	243				hypothetical protein
+JGOKHKEI_00258	CDS	1575				hypothetical protein
+JGOKHKEI_00259	CDS	492				hypothetical protein
+JGOKHKEI_00260	CDS	1980				hypothetical protein
+JGOKHKEI_00261	CDS	1833				hypothetical protein
+JGOKHKEI_00262	CDS	495				hypothetical protein
+JGOKHKEI_00263	CDS	819				hypothetical protein
+JGOKHKEI_00264	CDS	771				hypothetical protein
+JGOKHKEI_00265	CDS	930				hypothetical protein
+JGOKHKEI_00266	CDS	1464				hypothetical protein
+JGOKHKEI_00267	CDS	1584				hypothetical protein
+JGOKHKEI_00268	CDS	660				hypothetical protein
+JGOKHKEI_00269	CDS	1809				hypothetical protein
+JGOKHKEI_00270	CDS	867				hypothetical protein
+JGOKHKEI_00271	CDS	1005				hypothetical protein
+JGOKHKEI_00272	CDS	2037				hypothetical protein
+JGOKHKEI_00273	rRNA	111				5S ribosomal RNA
+JGOKHKEI_00274	rRNA	2902				23S ribosomal RNA
+JGOKHKEI_00275	tRNA	76				tRNA-Ala(tgc)
+JGOKHKEI_00276	tRNA	77				tRNA-Ile(gat)
+JGOKHKEI_00277	rRNA	569				16S ribosomal RNA (partial)
+JGOKHKEI_00278	CDS	381				hypothetical protein
+JGOKHKEI_00279	CDS	660				hypothetical protein
+JGOKHKEI_00280	CDS	429				hypothetical protein
+JGOKHKEI_00281	CDS	408				hypothetical protein
+JGOKHKEI_00282	CDS	270				hypothetical protein
+JGOKHKEI_00283	CDS	420				hypothetical protein
+JGOKHKEI_00284	CDS	519				hypothetical protein
+JGOKHKEI_00285	CDS	438				hypothetical protein
+JGOKHKEI_00286	CDS	342				hypothetical protein
+JGOKHKEI_00287	CDS	1218				hypothetical protein
+JGOKHKEI_00288	CDS	606				hypothetical protein
+JGOKHKEI_00289	CDS	675				hypothetical protein
+JGOKHKEI_00290	CDS	606				hypothetical protein
+JGOKHKEI_00291	CDS	1119	hindIIIM	2.1.1.72		Modification methylase HindIII
+JGOKHKEI_00292	CDS	507				hypothetical protein
+JGOKHKEI_00293	CDS	207				hypothetical protein
+JGOKHKEI_00294	CDS	291				hypothetical protein
+JGOKHKEI_00295	CDS	834				hypothetical protein
+JGOKHKEI_00296	CDS	426	bglB	3.2.1.86	COG2723	6-phospho-beta-glucosidase BglB
+JGOKHKEI_00297	CDS	558	hin		COG1961	DNA-invertase hin
+JGOKHKEI_00298	CDS	825				hypothetical protein
+JGOKHKEI_00299	CDS	330				hypothetical protein
+JGOKHKEI_00300	CDS	525				hypothetical protein
+JGOKHKEI_00301	CDS	615	dhfR	1.5.1.3	COG0262	Dihydrofolate reductase
+JGOKHKEI_00302	CDS	348				hypothetical protein
+JGOKHKEI_00303	CDS	879	mutS		COG0249	DNA mismatch repair protein MutS
+JGOKHKEI_00304	CDS	480	mrdB	2.4.1.129	COG0772	Peptidoglycan glycosyltransferase MrdB
+JGOKHKEI_00305	rRNA	673				16S ribosomal RNA (partial)
+JGOKHKEI_00306	CDS	1086	mbeA	5.99.1.2		DNA relaxase MbeA
+JGOKHKEI_00307	CDS	642				hypothetical protein
+JGOKHKEI_00308	CDS	246				hypothetical protein
+JGOKHKEI_00309	CDS	171				hypothetical protein
+JGOKHKEI_00310	CDS	336				hypothetical protein
+JGOKHKEI_00311	CDS	276				hypothetical protein
+JGOKHKEI_00312	CDS	318				hypothetical protein
+JGOKHKEI_00313	CDS	294				hypothetical protein
+JGOKHKEI_00314	CDS	471	guaA	6.3.5.2	COG0518	GMP synthase [glutamine-hydrolyzing]
+JGOKHKEI_00315	CDS	528	amtB			Ammonia channel
+JGOKHKEI_00316	CDS	330	zapA		COG3027	Cell division protein ZapA
+JGOKHKEI_00317	CDS	345				hypothetical protein
