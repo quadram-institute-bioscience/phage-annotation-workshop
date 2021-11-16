@@ -1,4 +1,5 @@
 #!/bin/bash
+# A script to download public data from the NCBI FTP site
 
 # Script self directory
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"

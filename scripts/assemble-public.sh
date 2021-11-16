@@ -1,4 +1,5 @@
 #!/bin/bash
+# Assemble t4 reads from SRA with Unicycler
 
 # Script self directory
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
@@ -62,6 +63,7 @@ fi
 if [[ ! -e "$OUTDIR"/"$ACC"/assembly.fasta ]]; then
  unicycler -t $THREADS -1 $R1 -2 $R2 -o "$OUTDIR"/"$ACC"/ 
 fi
+
 # Statistics
 seqfu stats -b -n "$OUTDIR"/"$ACC"/assembly.fasta > "$OUTDIR"/"$ACC"/assembly.stats.txt
 seqfu stats -b    "$OUTDIR"/"$ACC"/assembly.fasta > "$OUTDIR"/"$ACC"/assembly.stats.tsv
@@ -70,7 +72,7 @@ fu-cov "$OUTDIR"/"$ACC"/assembly.fasta --min-cov 0.8 --min-len 100 > "$OUTDIR"/"
 
 # Annotation
 if [[ ! -e "$OUTDIR"/"$ACC"/prokka/prokka.faa ]]; then
- prokka --cpus $THREADS -o "$OUTDIR"/"$ACC"/prokka --prefix prokka "$OUTDIR"/"$ACC"/assembly.fasta --force 
+   prokka --cpus $THREADS -o "$OUTDIR"/"$ACC"/prokka --prefix prokka "$OUTDIR"/"$ACC"/assembly.fasta --force 
 fi
 
 if [[ ! -e "$OUTDIR"/"$ACC"/eggnog.emapper.hits ]]; then
