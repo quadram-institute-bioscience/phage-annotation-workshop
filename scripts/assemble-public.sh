@@ -51,17 +51,23 @@ if [[ ! -e "$OUTDIR"/"${ACC}"_2.fastq.gz ]]; then
     echo "Download the dataset first ($ACC)"
     exit 1
 fi
-alias fu-cov='/tmp/fucov'
 
-set -euxo 
+
+set -euo pipefail
 
 # Assemble
 if [[ ! -e "$OUTDIR"/"$ACC"/assembly.fasta ]]; then
-  gunzip "$OUTDIR"/"$ACC"/assembly.fasta.gz
+  if [[ -e "$OUTDIR"/"$ACC"/assembly.fasta.gz ]]; then
+    gunzip "$OUTDIR"/"$ACC"/assembly.fasta.gz
+  else
+    echo " * Assembly file already decompressed"
+  fi 
 fi
 
 if [[ ! -e "$OUTDIR"/"$ACC"/assembly.fasta ]]; then
- unicycler -t $THREADS -1 $R1 -2 $R2 -o "$OUTDIR"/"$ACC"/ 
+  unicycler -t $THREADS -1 $R1 -2 $R2 -o "$OUTDIR"/"$ACC"/ 
+else
+  echo " * Assembly already exists, skipping assembly"
 fi
 
 # Statistics
@@ -82,4 +88,6 @@ fi
 if [[ $CLEAN -eq 1 ]]; then
     rm -rf "$OUTDIR"/"$ACC"/*.gfa || true
     gzip -f "$OUTDIR"/"$ACC"/*.fasta  || true
+else
+    echo "Keep the assembly files"
 fi
